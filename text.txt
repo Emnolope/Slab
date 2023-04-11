@@ -1,0 +1,2245 @@
+links
+
+avascript:d=document;d.querySelectorAll("textarea").forEach(t=>t.style.fontSize="13px");d.querySelectorAll(".container,.sixteen.columns").forEach(c=>{c.style.width="100%";c.style.marginLeft=c.style.marginRight="0"});
+
+document.querySelectorAll("textarea").forEach(function(textarea) {
+    textarea.style.fontSize = "13px";
+});
+
+
+var containers = document.getElementsByClassName("container");
+for (var i = 0; i < containers.length; i++) {
+    containers[i].style.marginLeft = "0px";
+    containers[i].style.marginRight = "0px";
+    containers[i].style.width = "100%";
+}
+
+var containers = document.getElementsByClassName("sixteen columns");
+for (var i = 0; i < containers.length; i++) {
+    containers[i].style.width = "100%";
+}
+
+https://www.protectedtext.com/emnolope  "how"
+https://www.protectedtext.com/emnoloperegret  " "
+https://www.protectedtext.com/emnolopekawaii  " "
+https://www.protectedtext.com/emnolopefax  "fax"
+https://www.protectedtext.com/emnolopeshop  " " 
+https://www.protectedtext.com/emnoloperoque  "1211"
+https://www.protectedtext.com/emnolopeproblems  " "
+https://www.protectedtext.com/emnolopepp5  " "
+https://www.protectedtext.com/emnolopefsd  " "
+https://www.protectedtext.com/emnolopesys  " "
+https://www.protectedtext.com/emnolopedys  " "
+https://www.protectedtext.com/emnolopepity  " "
+https://www.protectedtext.com/emnolopeprog " "
+https://www.protectedtext.com/emnolopeclair " "
+https://www.protectedtext.com/emnolopedaeva " "
+https://www.protectedtext.com/emnolopeeelc " "
+https://www.protectedtext.com/emnolopevr " "
+
+https://www.protectedtext.com/emnolopeback  " " replaced with prog
+https://www.protectedtext.com/uhhidk  "password1234"
+https://www.protectedtext.com/cheapphones  " "
+https://www.protectedtext.com/emnolopekawaii2  " "
+https://www.protectedtext.com/emnolopeproducts  " "
+https://www.protectedtext.com/blacknotes  "Abduction"
+'f47c13a09bfcad9eb1f81fbf12c04516e0d900e409a74c660f933e69cf93914e16bc9facc7d379a036fe71468bd4504f2a388a0a28a9b727a38ab7843203488cProblems/Goals
+###########################################
+PRB Sleep time broken              HTH u1N?`
+GOL Safety                         SEC cIm?`
+PRB Thieves                        SEC CiM?
+PRB Gangsters                  COM,SEC uiN?
+PRB Junkies                    SEC,PPL C1M?
+PRB No power in car                PWR C1M?`
+GOL Situation                      PPL CIM?`
+PRB Bad vibes where I'm at         PPL cIM?
+PRB Unplug bike bat forget dies    SYS Cim?
+PRB stuff lost in car crevice      IDX C1N?
+PRB Car battery dies forget    PWR,SYS UIN?
+PRB more money than wisdom     EDU,??? c1N?`
+PRB People judge my shit look      SCM ,1M?`
+PRB Chakra check misses a lot  SYS,??? u1N?
+PRB daily tasks done hard          SYS u1M?`
+PRB Pooping hard logistics     GET,??? ,Im?
+PRB No cooking stuff               RES ,1m?
+PRB Mount bike to car difficult    RES cin?
+PRB Need emo/phys cathartic out    HTH CIN?
+PRB Untrained dangerous work           CIn?`
++ electricity, hot metal, fire
+PRB Car sensory oblivious              UIn?`
+PRB Car rear ended instakill           UIn?
+GOL get more space car                  IDX`
+PRB Car is cramped                 IDX C1N?
+
+
+GOL Small Fast Transport            SEC,VCL
+GOL Dopamine Management                 MND`
+###########################################
+
+
+[GOL]
+Goals
+
+GOL Become full stack dev      ,1Mv WEB,FSD`
+###########################################
+GOL Brand Self Well                ,iNx SCM
+GOL VR developer(+fsd)             FSD ,iNx`
+GOL AI good skill                       WEB`
+GOL Become Full Stack Dev          c1Mv WEB`
++ VR reality pen
++ robotic golem
++ community accept
+
+[TDO]
+To Do
+[GET]
+Shop/Pick/Buy
+[BLD]
+Build
+QQQ Your teenyverse is expanding, pros and `
++ cons too. Solve problems preexponentially`
+
+
+
+GOL Grow as a person                     
+QQQ Navigating mindspace now, do like irl  `
+QQQ You can go very far fast now.          `
+###########################################
+QQQ Total control of setting and community.`
+###########################################
+QQQ Watch out for, pay attention for       `
++ positive and negative feedback cycles    `
+QQQ Your environments lil more domesticated`
+
+RTN Regret (Stop & Reflect)                `
+RTN Code (1 Character)                     `
+
+f47c13a09bfcad9eb1f81fbf12c04516e0d900e409a74c660f933e69cf93914e16bc9facc7d379a036fe71468bd4504f2a388a0a28a9b727a38ab7843203488c[HTH]
+Health/+++/RRR
+
+
+
+HTH Find a sport                   u1Nx OUT`
+HTH Brush teeth 2x Daily>SYS_RTN   uInT RTN
+HTH Dumpster Dive as Sport    +C1mT OUT,TRH
+HTH,SEC Find a sport/strength      u1Nx ???`
+HTH Find alt shower                ____ ???
+HTH Fix Sleep schedule             uINx ???`
++ Fungshuei window
+HTH Really good sleep              ____ PLN
+HTH Fit Body                       ____ PLN
+HTH Check Insurance            ,1nT MED,PHN`
+HTH military sleeping bag/Pajamas  u1mT AMZ`
++ https://www.ebay.com/itm/285141022185
+HTH Tooth paste good               C1mx AMZ
+HTH Reapply medical insurance  ____ PHN,WEB
+https://www.ebay.com/sch/i.html?_nkw=sleeping+bag&LH_ItemCondition=3000&Temperature%2520Rating=0%2520%25C2%25B0F&_dcat=87100&_sop=15
+HTH Mediterranian Diet
+  Based on the best nutrition research to date, he says that a diet loaded with plant-based foods, fish, and extra-virgin olive oil — coupled with time-restricted eating — seems like the plan with the most upside.
+HTH Research supplements boosters vitamins minerals 
+###########################################
+Metabolism
+  Get a diagnosis for metabolic problem
+Insurance
+  mybenefitscalwin.org  8558328082     
+Idiot
+  Breath deeply b4 travel
+20210814 Aug 14 David has very efficient digestion and farts a lot.
+
+Keep my feet dry
+Every day clean feet.
+Every day change socks.
+Every day Lysol feet.
+Every day Lysol shoes.
+f47c13a09bfcad9eb1f81fbf12c04516e0d900e409a74c660f933e69cf93914e16bc9facc7d379a036fe71468bd4504f2a388a0a28a9b727a38ab7843203488c[SEC]
+security/LLL/ttt
+
+enemies crush
+###########################################
+SEC Research faster security   CINx EDU,MED`
+SEC Weaponry                       ____ $$$
+SEC Defense/weapons dev(basic)   shp L u1mx
++ Aim bot
++ small pistol
+Communication is a good way to avoid violence. There are entries in [COM]
+SEC,COM Descelation                ____ EDU
+SEC Fight Victorious               ____ HOW
+SEC Active security                     GOL
+SEC Tear Gas Bomb                  ____ SHP
+SEC Aerko/ClearOut Teargas         c1rT AMZ`
+SEC Theft resistant car            uInx CAR`
+SEC Find safe place w/out tow  CIMT MAP,OUT`
+SEC Park safe                           SYS
+SEC Safe carpod                         GOL
+ULTIMATE FORTRESS: What are the ideas and qualities of an ultimate fortress? What can be implemented RIGHT NOW?
+SEC Safe me                             GOL
+PPL,SEC Strs Test YJCP support car repr PHN
++ Try to give them enough details so that they WON'T support you. Do not be like, I need this car to keep my job, hey, hey, HELP! Say, please help fund my extended security systems, I want to make this car good so I can ditch this town! Like that. That's good.
+
+
+
+Optimus method skeletonizer{::OPTIMUSMETHOD:}
+
+GOP Guardian/Owner/Person/
+IOA Item/Object/Artifact/Intrinsic properties/
+ESC Environment/Setting/Context/
+T Thief/
+
+Guardian
+  P Quantative/Qualitative
+  {an}
+  {International}
+  not Reliable Victim/Gullible/Unaware {Elite}
+  {SplinterCell}
+  Ambiguity hidden Security {Spy}
+  Time stagancy {Mobile}
+  Redundant{Group}
+  {Who}
+  {MoveItAroundAt}
+  {RandomIntervals}
+  {guardinga}
+Item
+  {Glowing}
+  {Vibrating}
+  {Disassembled}
+  {(Secret)}
+  Not sentimental {Cursed}
+  Mobile/Portable/Small/Small/Not voluminous/Lightweight{Supermassive}
+  Bounty/Receivable/Usable{ReinforcedConcrete}
+  Usable{Puzzle}
+  Apparency/Quiet{Submerged}
+  Expensive/Valuable/Fungible/Tradable Sellable/Not unique/Hygiene/Freshness{InHumanWaste}
+Environment {ina}
+  Ambiguity ownership
+  Visible/Overt
+  Demographic
+  {Remote}
+  Distance/Touchable/Accesibility{HardToReach}
+  Traffic{DesertedTownsAnd}
+  Visible/Overt{HideIt}
+  {AmongstThePeopleThere}
+Thief {toprotectitfrom}
+  Typical
+  Experience{Ancient}
+  Technology{Cyborg}
+  Anonyminity/Guiltless/Observability{ChameleonShapeshifters}
+  Speed{Agile}
+  Strength{Formidible}
+  Hideable/Corners{Shadow}
+  Reconnaissance/Intelligence{Illuminati}
+  Just Cause/Determination{CultOf}
+  Unpredictable{Insane}
+  Malice{Hate}
+  Discernment
+  {DisguisedAs}
+  Trust{ThoseYouTrust}
+  {ToWatchYou}
+
+::OPTIMUSMETHOD: an International Elite SplinterCell Spy Mobile Group Who MoveItAroundAt RandomIntervals guardinga Glowing Vibrating Disassembled (Secret) Cursed Supermassive ReinforcedConcrete Puzzle Submerged InHumanWaste ina Remote HardToReach DesertedTownsAnd HideIt AmongstThePeopleThere toprotectitfrom Ancient Cyborg ChameleonShapeshifters Agile Formidible Shadow Illuminati CultOf Insane Hate DisguisedAs ThoseYouTrust ToWatchYou
+
+- LOCK 
+  trashbag locks sunterrainian
+- LOOK
+  Etrig MotionDet CloudCam
+- WARN
+  Siren InflamatoryJuice CloudMic
+- HURT
+  BoobyTrap MacePepper Explode
+Being healthy is good for security.f47c13a09bfcad9eb1f81fbf12c04516e0d900e409a74c660f933e69cf93914e16bc9facc7d379a036fe71468bd4504f2a388a0a28a9b727a38ab7843203488c[CAR]
+f47c13a09bfcad9eb1f81fbf12c04516e0d900e409a74c660f933e69cf93914e16bc9facc7d379a036fe71468bd4504f2a388a0a28a9b727a38ab7843203488c[IDX]
+indexing storage mk system inventory
+
+Item management, efficient, fast, compact, versatile, convenient, practical
+
+//IDX,MK1 Fix Cane with Epoxy        c1mT SHP`
+IDX Taller Big car boxes           c1Nx TRH`
+IDX,MK5 Clean office               cirx MK5`
+IDX Car Roof Box                   CiNx MK3`
+IDX,MAP Find UGround Tunnel Fresno ,imt OUT
+IDX Log inventory                  uImx IDE`
+IDX,MK2 New Back Pack Frame         SHP,TRH`
+IDX Separate Industry/Life Part    u1mX VAN
+//IDX Get sub-bag for dirty laundry  u1mT MK5`
+Storage: obscure road+path+hole?
+Better to store (where???) trolley+bike off car as insurance?
+###########################################
+C4 Card                                  B1
+B1 Color/Shape indexing                  B5
+C1 Paint                                 B1
+I1 Oil paint markers                     C1
+I2 Acrylic paint markers                 C1
+I3 Grease pencils                        C1
+I4 Sharpies                              C1
+C2 Stickers                              B1
+C3 Tape                                  B1
+N1 Paint brush                           C1
+B2 Smart tags                              
+D1 RFID                                  B2
+D2 QR Codes                              B2
+D3 3D Reconstruction Vid                 B2
+D4 AI object recognition                 B2
+B3 Organizers                              
+E1 Bag Tarps                             B3
+F1 Cloth material                        E1
+F2 Trash bag                             E1
+F3 Multibag bags                         E1
+G0 Review acrylic paint bottles            
+G1 Too Many Parts Peices ->                
+   Keep it simple 1 part                 G0
+G2 Application was messy ->                
+   Clean Applicator                      G0
+G3 Awkward to find/grab ->                 
+   Ergonomic convenient shape            G0
+G4 Mixing colors sucks ->                  
+   1 color 1 type                        G0
+G5 Bottles expanded form                   
+   delicate -> Ruggedized                G0
+P0 Paradigms                               
+P1 Alternate Space Dimension             P0
+P2 Tree structure per Demand             P0
+Q1 How to? Structure                     P2
+P3 Object closure &                        
+   Cleaning & Cleaning space             P0
+P4 Potential & Genericness               P0
+M0 Research                                
+N0 Misc                                    
+M0M1 WikipediaArticleOnPaint             C1
+B4 Permutations/Combinations/MultiUse      
+K1 Drawings & Symbols                    B4
+K2 FULU                                  K1
+B5 Unified Visual System Vocabulary        
+J1 Constant length cord                  B5
+J2 Constant length Tape                  B5
+J3 Repeatifty Motif                      B5
+S0 Imagined Requirements of paint
+S1 Flexible
+S2 Less than 4 hrs to dry
+S3 Adhere Strongly / Stick on Everything
+S4 Washable
+H1 Color Electrical Tape 
+(Proposal) White Utility/Duct tape with smaller Oil paint pen
+
+Level Based Denotation
+
+Z2 (static conditions) retrieve anything you need < 15 sec
+Y3 Give you what you need as you need it.
+Y2 Incredibly observant and knows a lot (all)
+Y1 Knows what you need before you need it. Z1
+Z1 The perfect assistant
+f47c13a09bfcad9eb1f81fbf12c04516e0d900e409a74c660f933e69cf93914e16bc9facc7d379a036fe71468bd4504f2a388a0a28a9b727a38ab7843203488c[PWR]
+###########################################
+Power/Electricity
+
+PWR Elec Safety train              uImx EDU
+PWR Learn electrical safety        uImx EDU
+#
+Safety Information:
+RVIA LV [https://diysolarforum.com/resources/ansi-rvia-lv.249/download](https://diysolarforum.com/resources/ansi-rvia-lv.249/download) [https://ia601909.us.archive.org/9/items/ansi-rvia-lv-standard-for-low-voltage-systems-in-conversion-and-recreational-vechicles/ANSI RVIA LV - Standard for Low Voltage Systems in Conversion and Recreational Vechicles.pdf](https://ia601909.us.archive.org/9/items/ansi-rvia-lv-standard-for-low-voltage-systems-in-conversion-and-recreational-vechicles/ANSI%20RVIA%20LV%20-%20Standard%20for%20Low%20Voltage%20Systems%20in%20Conversion%20and%20Recreational%20Vechicles.pdf)
+ABYC Marine standard
+National Electrical Code
+
+//PWR LiFePo4 main battery           uIMx AMZ
+Constraints:
+  <$180
+  12v Nominal
+Alibaba:
+  Shipping might be an issue
+  https://szluyuan.en.alibaba.com/
+  https://docanpower.en.alibaba.com/
+  https://docantech.en.alibaba.com/
+
+Search Places
+  https://www.ebay.com/sch/i.html?_fsrp=1&_nkw=lifepo4&rt=nc&LH_ItemCondition=1000|1500
+  https://www.ebay.com/sch/i.html?_fsrp=1&rt=nc&_nkw=lifepo4&LH_ItemCondition=2500|3000
+  https://www.facebook.com/marketplace/fresno/search?minPrice=0&maxPrice=200&query=lifepo4
+  https://fresno.craigslist.org/search/zip?query=lifepo4
+  https://www.mercari.com/search/?keyword=lifepo4
+  https://offerup.com/search?q=lifepo4&PRICE_MIN=0&PRICE_MAX=200
+  https://www.ebay.com/b/12V-Lithium-Multipurpose-Rechargeable-Batteries/48619/bn_57020251?rt=nc&mag=1&_udlo=0&_udhi=160
+  https://www.batteryclearinghouse.com/collections/all/12v
+  https://jag35.com/
+
+
+https://www.ebay.com/itm/175626777749
+  Bait n' switch, common error
+https://www.ebay.com/itm/175615794032           
+  170/40=4.25
+  TOO HIGH!
+https://www.mercari.com/us/item/m33020943666/
+  150/40=3.75
+  Find a better ratio.
+https://www.ebay.com/itm/175380752352
+  60/20=3.00
+  MANY PROMISING
+https://www.ebay.com/itm/255994473551
+  65/20=3.25
+  TOO LITTLE
+https://www.ebay.com/itm/175587259394
+  65/9.6/2=3.38
+  24V WRONG
+https://www.ebay.com/itm/204189548936
+  115/38.2=2.99
+  8”x5.5"x7.25"
+  PROMISING
+https://www.ebay.com/itm/385321606140
+  140/50=2.8
+  7.79"x6.53"x6.69”
+  VERY PROMISING
+https://www.ebay.com/p/4055220039
+  136/50=2.72
+  CHECK LEGIT
+https://www.ebay.com/itm/304689029203
+  57/21=2.71
+  CHECK LEGIT
+https://www.ebay.com/itm/165960640698
+  99/40=2.45
+  7.76”x5.12”x7.20”
+  VERY PROMISING 
+https://www.ebay.com/itm/394017071389
+  99+19/38=3.07
+  PROMISING                
+https://batteryhookup.com/products/ironworks-1240st-12-8v-44ah-573wh-w-bms-tested
+  85+19/44=2.36  170+25/88=2.2
+  7.75"x4.75"x7"
+  EXTREMELY PROMISING
+  THIS IS THE ONE THAT WAS GOTTEN
+https://jag35.com/products/slm12-lifepo4-12v-50a-4s-battery
+  99+25+12=2.72
+  198+25+12=2.35
+  NEEDS SET UP
+PWR 12V>42V 2A barrel              c1NT SHP
+PWR Learn DC-DC theory             uiNT EDU
+  y2u.be/WeYK2gY4z-A
+    DIY variable bench power supply (less than 10$)(Electronoobs)
+  y2u.be/VwCHtwskzLA
+    DIY Adjustable Constant Load (Current & Power)(GreatScott!)
+  y2u.be/z5eB_2wjLTg
+    Negative Voltages are more important than you think! So here is how to make them! EB#52(GreatScott!)
+  y2u.be/8uoo5pAeWZI
+    HACKED!: Adding a Current Limit Feature to a Buck/Boost Converter(GreatScott!)
+  y2u.be/8swJ_Bnsgl4
+    Here is why MOSFET drivers are sometimes essential! || MOSFET Driver Part 1 (Driver, Bootstrapping)(GreatScott!)
+  y2u.be/5R_QCurh_iM
+    WATCHED meh mid
+    Creating a Boost Converter WITHOUT a Microcontroller(GreatScott!)
+  y2u.be/ZiD_X-uo_TQ
+    DIY Buck/Boost Converter (Flyback) || How to step up/down DC voltage efficiently(GreatScott!)
+  y2u.be/XOcA7ijtlCY
+    The Most Versatile Voltage Converter you never heard of! The (S)EPIC Converter(GreatScott!)
+  y2u.be/ycT-PItAzNk
+    How does a modern Power Supply work?! (230V AC to 5/12V DC) DIY Flyback Converter!(GreatScott!)
+  y2u.be/QnUhjnbZ0T8
+    DIY Boost Converter || How to step up DC voltage efficiently(GreatScott!)
+    WATCHED
+  y2u.be/wI-KYRdmx-E
+    Build your own Variable Lab Bench Power Supply(GreatScott!)
+  y2u.be/m8rK9gU30v4
+    Voltage regulators can be used to source constant voltage values.
+    DIY Buck Converter || How to step down DC voltage efficiently(GreatScott!)
+  y2u.be/W4i2FRZ8gXc
+    WATCHED
+    Learned about a more efficient voltage converter. Will upgrade all voltage converters to this type.
+    Is this the BEST Voltage Converter? Trying to build a Synchronous Converter!(GreatScott!)
+//PWR 9v battery for multimeter      C1NX AMZ
+PWR,SEC Wireless battery relays         AMZ
+- http://ebay.com/itm/363671630981
+- http://ebay.com/itm/155076958048
+PWR MainRelay+MiniBattery      cInx CAR,SHP`
+SEC,PWR Car kill switch        uInx CAR,SHP
++|SEC_car
+PWR small Solar Panels             ,:nT AMZ
+SEC,PWR Anti theft system
+
+Aux battery?
+Wire to activate tear bomb
+###########################################
+Power System Welding Renewable Energy Big Battery USB charger AC outlet 12v 24v 48v
+
+2x Portable battery banks (unreliable) (#1 REDO THEELECTRONICS ON THIS)
+Phone (PC)
+(#1.5 Buy inner tubes, Buy tireliners)(#2 BUILD A CHARGER) -> Powered bike
+(#3 LiFePo4)
+
+cigars
+ext cord -> GO FIND OUT HOW LONG A LINE YOU NEED
+long boost
+boost242
+lifepo4 battery
+fronthookfuse hack relay box?
+voltage converter per app
+
+what is nominal voltage?
+engine off, engine on?
+killonlyfuel
+
+- Generation
+Solar
+ICE Alternator
+Generator
+*Transmission
+Cigar to USB adapters
+TransferIn
+HackRelayBox?
+Conversion
+TransferOut
+Storage
+LiIon
+Transfer
+TransferIn
+Conversion
+BMS
+TransferOut
+Extraction
+
+power deprived child
+acquisition
+generation
+solar
+gas engine
+inverter
+extraction
+extension
+induction
+processing/conversion
+transformers
+full bridge rectifier
+DC DC boost buck
+12v to 42v@2a w/ cc & cv
+
+storage
+lead batteries
+lithium batteries
+BMS
+usage
+phone
+skateboard
+pc
+
+- 4 [pwr]Solar Panels u1mx
+- 6 [pwr]heat engine sterling c1mT
+- 6 [pwr]Gen Fbr Volt Engi PwrStn
+- 4 [pwr]FireIndep -> PowerPot ciNx
+conversion
+42v to 5v cellphone charger
+???v to 42v converter (sk8board)
+infinite e-
+###########################################
+
+The idea of hooking a smaller battery in parallel to big battery purely for unlocking reasons, then car is unstealable (they can't start the engine) and still unlocks wirelessly.
+
+Buying used batteries from medical equipment, b/c they're gently treated.
+
+LiFePO4 safer no thermal runaway
+LiIon need BMS and thermocouple
+LiIon easy to buy
+LiIon high power density
+LiFePO4 compatible with Lead Acid
+LiIon can't take extreme temps
+LiFePO4 can't take extreme temps
+Short circuit kills
+Need tab welding tool
+Know proper wire laying.
+Liquid immersion heatsink
+
+research notion app
+diy solar forum > [?_PWR]
+Valence battery > [?_PWR]f47c13a09bfcad9eb1f81fbf12c04516e0d900e409a74c660f933e69cf93914e16bc9facc7d379a036fe71468bd4504f2a388a0a28a9b727a38ab7843203488c[SYS]
+
+
+SYS Formalize systems more         ,1Nx MED`
++ |PRB_chakramiss
+SYS Find smart diff alg            ,iNx IDE`
+Query: Diff {ChatGPT}
+Algorithm Better CopyPasteMoveEdit BlockEdit Detection
+Now: SemanticMerge SimTexter(Sim_Text) CacycleDiff
+App: BeyondCompare SemanticMerge WinMerge Meld SDSmartDifferencer
+Tech: LeastLevenstheinDifferences Myers  WalterTichy PaulHecke Equality LCS
+https://prettydiff.com/2/guide/unrelated_diff.xhtml
+'git diff --color-moved --color-moved-ws=allow-indentation-change HEAD^..HEAD'
+https://tiarkrompf.github.io/notes/?/diff-algorithm/
+http://cacycle.altervista.org/wikEd-diff-tool.html
+https://en.wikipedia.org/wiki/User:Cacycle/diff
+
+SYS Start following RTN again      U1Mx RTN`
+//SYS Re order do list                IDE,PRN
+SYS Calendar Multifrequency      ide ! ciNx(-long term trigger)???
+Between Strong paper, Custom cards, Modified paper, and handwriting, STRONG PAPER comes out on top.
+SYS Reprint LIT on Terraslate      cImx AMZ`
+###########################################
+f47c13a09bfcad9eb1f81fbf12c04516e0d900e409a74c660f933e69cf93914e16bc9facc7d379a036fe71468bd4504f2a388a0a28a9b727a38ab7843203488c[JOB]
+Job
+job fulfilling purpose profitable
+
+
+JOB Dig with Alejandro                  LPH
+
+
+
+###########################################
+StockMarket
+Alejandro landscaping
+Learn Classes Online
+jobs gigs careers skill
+###########################################
+BTCC Mondays at Bethel Temple Christian Center at 6 PM
+Red Cross
+Green Peace
+Open Insulin
+Autistic Kid Behavioral
+Amazon Warehouse Reseller
+Indeed
+Painting Fence
+FullStackDeveloper
+Refurbishing Trash
+Democrat Survey
+Democrat Petition
+DoorDash Tag Team
+//JOB Help Roque ePrescription        CFresno`
+//JOB Fax clerk              u1Mx W-M,R_M,MK5`
+//FAX Fresno One Intern -> [emnolopefax]
+
+Sources
+Craigslist
+LegsBoardBus
+EyesPhoneFolk
+Indeed
+Website Build
+Frog Tutoring
+Bounce House
+WeAreImago
+Team Experience
+Code Training
+DPSTele
+WFG Sales
+Solar Sales
+Stocks Training
+Artisan
+Fufill
+Wealth
+Experience
+
+
+
+f47c13a09bfcad9eb1f81fbf12c04516e0d900e409a74c660f933e69cf93914e16bc9facc7d379a036fe71468bd4504f2a388a0a28a9b727a38ab7843203488c[VCL]
+Vehicles/Trolley/LLL/vvv
++=========+
+| U I M X |
+| C 1 N T |
+| u i m x |
+| c : n t |
+| , . r v |
++=========+
+
+VCL sheet metal for pennyboard uimT SHP,TRH`
+VCL paint car spray pretty          ,in?
+VCL BackpackFrame
+VCL Rav4 Tools                      
+###########################################
+[TRL]
+Trolley
+
+
+
+
+
+
+
+###########################################
+
+Hipstar trolley
+https://jamboard.google.com/d/1ICLHx0OB5gDGtVpWtF5yQcUyn9a5fiuviIumFyPw7oU/viewer?f=0
+a2e5 https://i.pinimg.com/originals/41/7f/52/417f5288aab64ead709370c4f205a2e5.jpg
+7744 https://i.insider.com/5362b73b69bedd9a54667744
+9163 https://i.insider.com/51560a40eab8ea9916000003
+e163 https://i.insider.com/51560a40eab8ea8e16000003
+6739 https://thumbs.dreamstime.com/z/nepalese-man-carrying-heavy-load-street-kathmandu-nepal-30126739.jpg
+aa12 https://clutterbusting.com/wp-content/uploads/2018/02/carrying-heavy-load12.jpg
+06aa https://www.squareonephysio.ca/wp-content/uploads/2017/07/006_kathmandu_old-town.jpg
+acae https://upload.wikimedia.org/wikipedia/commons/f/f6/Mysore_woman_balancing_basket.jpg
+1539 https://culturaltourconsultants.com/wp-content/uploads/2017/03/IMG_1539.jpg
+7701 https://www.terragalleria.com/images/vietnam/viet7701.jpeg
+ede8 https://i.pinimg.com/736x/0a/7c/d8/0a7cd8e00be18d670a457482039eede8--hanoi-serum.jpg
+2116 https://i.pinimg.com/736x/ce/f4/b0/cef4b09dd33086777e468fe5b2d22116.jpg
+5e31 https://i.pinimg.com/736x/c9/c0/22/c9c02251d501056b55c2b1f424e45e31.jpg
+1583 https://i.pinimg.com/736x/91/80/a4/9180a4569f729a0ed450b10703ef1583--miss-vietnam-hanoi-vietnam.jpg
+0613 https://soranews24.com/wp-content/uploads/sites/3/2015/06/13.jpg
+bcc8 https://m.youtube.com/watch?v=d5N8BINhcC8
+0622 https://soranews24.com/wp-content/uploads/sites/3/2015/06/22.jpg
+0651 https://soranews24.com/wp-content/uploads/sites/3/2015/06/51.jpg
+0616 https://soranews24.com/wp-content/uploads/sites/3/2015/06/16.jpg
+9338 https://thumbs.dreamstime.com/b/indian-porter-carrying-heavy-bags-manual-labor-darjeeling-india-december-unidentified-man-carries-load-december-30499338.jpg
+c471 https://c8.alamy.com/comp/M2C471/man-carrying-huge-load-on-back-using-head-support-shillong-meghalaya-M2C471.jpg
+2c8a https://c8.alamy.com/comp/B2KC8A/man-carrying-a-heavy-load-cairo-egypt-B2KC8A.jpg
+ba7e https://c8.alamy.com/comp/BA7KEX/nepalese-man-carrying-heavy-load-of-boxes-vertical-near-bodhanath-BA7KEX.jpg
+ae4e https://i.insider.com/51560a46ecad04ae4e000003
+3b4e https://i.insider.com/5362ae7decad04d05fe33b4e
+390f https://i.insider.com/51560a41eab8ea390f000019
+c344 https://i.insider.com/51560a486bb3f7c344000002
+f744 https://i.insider.com/51560a446bb3f77440000013
+https://soranews24.com/wp-content/uploads/sites/3/2015/06/15.jpg
+https://soranews24.com/wp-content/uploads/sites/3/2015/06/18.jpg
+https://soranews24.com/wp-content/uploads/sites/3/2015/06/20.jpg
+https://soranews24.com/wp-content/uploads/sites/3/2015/06/211.jpg
+https://soranews24.com/wp-content/uploads/sites/3/2015/06/221.jpg
+https://i.pinimg.com/236x/a9/66/6c/a9666c90e87da71c3c873209e961a214--mustang-nepal.jpg
+https://i.pinimg.com/736x/b2/3c/c9/b23cc90a00d55ab211cc0b6629408596--recycling-center-random-pictures.jpg
+
+"people carrying stuff"
+"porter stock images"
+"people carrying massive"
+"strong man pull"
+
+https://jamboard.google.com/d/1ICLHx0OB5gDGtVpWtF5yQcUyn9a5fiuviIumFyPw7oU
+
+Uhh aluminum grating plastic wood concrete thin furniture wood (compsite) cross plywood small wheels big wheels paracord level cord
+f47c13a09bfcad9eb1f81fbf12c04516e0d900e409a74c660f933e69cf93914e16bc9facc7d379a036fe71468bd4504f2a388a0a28a9b727a38ab7843203488c[COM]
+Communication, People, 888, ^^^,
+
+
+COM Vibe ColdRead                  u1Nx EDU`
+SEC,COM SitAwr RpdProf AvdFite     ____ EDU`
++ Situational Awareness, Rapid Profiling, Avoiding Fights
+COM Finish LookinLookout t.ly/9YsZ ,iNx MED
+COM Fake normal practice           ____ 
+@ COM Self conscious trig crowd 
+   UIMX SYS,MED
+
+
+###########################################
+[PPL]
+People Community
+
+PPL Move to Tower & Chill out      uImt OUT`
+GOL,PPL,SEC Good Community         c1Nv OUT
+PPL Visit Evi&Mike&David   u1mT EFresno,OUT`
+PPL Visit Darline         cinT NWFresno,OUT`
+PPL Attend bitwise                 Uimx WEB
+PPL Claire sunset                   SYS,OUT
+PPL Daevah contact                      WEB                      WEB
+
+
+
+PPL Move to Chicago                cINt CIL
+
+[VRC]
+Virtual Social Space (any kind)
+
+###########################################
+I would like to be able to walk down the road without being scared for my life, or feeling terrified that people will see me being strange and then judge me, and then fear me, and then ostrasize me, and then try to kill me, because I act strange. And I want to be in a place where the people are free thinking people and progressive and they care about their community and they aren't ignorant and savage and backwards. Somewhere there aren't too many drug addicts. And I would like to be in a place where strange is accepted, but not because the people have gone insane or are on copious amounts of euphoric drugs. I would like to be very, very far from the drug trade, or at least somewhere it is managed sensibly. I would like to be around free thinkers and innovators and artists. more, I would like to be of use to this society. Even more, I would like the work I do to have a significant positive impact to those around me. Even more, I would like my work to have some long standing impact to the world. Even more, I would like to be somewhat well off, enough to have what I need and occasionally spend on strange things. 
+X1  Safe community                         
+    FEELING SAFE = BEING SAFE       
+Being offended/damaged/shook/traumatized?
+  I "take things personally" a lot. What does that mean?
+What is narcassism?
+  What is "covert narcassism"?
+  "Everybody" says that self love is the cure to narcassism. Umm, WHAT?
+  https://www.psychologytoday.com/us/blog/understanding-narcissism/201802/7-steps-changing-your-narcissistic-responses
+  If you are a narcissist, now what do you do?
+  children of narcissists
+Finish reading "Looking In Looking Out".
+How to do "cold reading"?
+What is a personality disorder?
+  Mayo Clinic's coverage of Personality Disorders
+What is toxicicty?
+  How to avoid toxic relationships?
+
+Behavioral science
+Psychology
+Empathy
+Self-awareness
+Influence
+Social intelligence
+Emotional intelligence/quotient
+Interpersonal communication
+Human behavior
+Social engineering
+Cold reading
+Rapid profiling
+Effective communication
+Vibe reading
+
+f47c13a09bfcad9eb1f81fbf12c04516e0d900e409a74c660f933e69cf93914e16bc9facc7d379a036fe71468bd4504f2a388a0a28a9b727a38ab7843203488c[CSI]
+Computer
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSI Bluetooth keyboard VR/Phone    uimT AMZ`
+CSI Fix Quest 2 Left           u1mx SHP,AMZ
+CSI VR Mental                      ,1mT MED`
+###########################################
+Needs a way of powering
+
+phone/tablet + bluetooth keyboard?
+gpd win 3
+steam deck
+dgpu
+quest 2 + cloud services?
+thin client?
+
+
+I have to make a VR World before I enter VR.
+Why am I trying to create a VR world? BECAUSE IF YOU DON'T THEY WILL DRIVE YOU INSANE AND TAKE OVER YOUR MIND, AND TURN YOU INTO A GODLESS HEATHEN PERFORMING ABONINATIONS IN THE NAME OF LESSER GODS. And that's not even a joke.
+All things considered what do you do?
+Create a form of IDENTITY. (This can change)
+Create a form of ENVIRONMENT. (This can change.)
+Create a form of COMMUNITY. (This can change.)
+
+And then use those specialized forms.
+
+I need a wordsmithing studio
+Spatialized Web surfing
+Bluetooth keyboard
+
+Trying to Quest 2 Headset
+https://www.reddit.com/r/OculusQuest/comments/111rshc/
+
+Meta Account:
+emmanuelnlopez+quest2@gmail.com
+Questie Bestie
+vrchattycha1
+7353
+@QuestieBestie1
+
+https://www.jailbreakchat.com/f47c13a09bfcad9eb1f81fbf12c04516e0d900e409a74c660f933e69cf93914e16bc9facc7d379a036fe71468bd4504f2a388a0a28a9b727a38ab7843203488c[FSD]
+Full Stack Developer
+
+I don't want to do my system on the PC or on the phone anymore. I want to do it in VR so I can get some movement in. This is killing me.
+FSD,SYS VR sys version                  IDE
+
+FSD Clone protected text           cint IDE`
++ app
+FSD Build a full stack app         u1mx IDE
+FSD buy gh.io/cp or gpt+
+###########################################
+Community & People
+  Myself and routines
+  Astrid
+  Ella
+  Hekky
+  Bitwise
+    Vincent
+      Wisdom
+        as fast as possible
+        baby steps, pivot pivot, mvp
+        30min 30hr 30days projects
+        pick in the top 5
+        I don't get this code right now, but I'm gonna use it.
+    Classes
+      Mobile Friendly Websites
+        Classes Tuesday Thursday 18PST + 3:00
+        Seshes Friday 18PST+3 Sun 13PST+4
+        https://us02web.zoom.us/j/84908785933?pwd=QjNnUy9JMjNDa01xV0dRTXRYcmtjdz09
+        https://app.slack.com/client/T039Z04V3/C048DP559P1
+        https://github.com/vinsonf/mf-11-01-22
+        https://geekwiseacademy.github.io/virtual-mobile-friendly-websites/index.html
+    Cohorts
+      Chicago
+      Oakland
+      Fresno
+    Slack
+      Alt to physical space.
+      General
+        Study Group
+        Q&A
+        Game Night
+      Study Group
+      Tech Support
+      Browse many channels
+      Mention when something thneeds their attention
+    Vincent (Teacher)
+    Rachelle (Counsilor)
+    Evan
+Visual Studio Code
+  WebHosts
+    https://gitpod.io
+    https://github.dev
+  Settings
+    Autosave
+  Extensions
+    Tailwind
+    Beautify Code
+    Live Server
+    Emmet abbreviation
+    Git Kraken
+    AutoTag
+    Live Saas
+Github
+  what is a branch?
+  what are stages?
+Gitpod
+Visual studio code extensions
+Node & npm
+  How do I start it? Where does it run?
+  w3 schools
+  https://www.w3schools.com/
+
+Sauces
+  Youtube
+  Udemy
+  Github search 
+  Fireship JS course take the TOC and put it into ChatGPT
+
+ChatGPT
+
+Yarn - Package manager for Node JS and npm REPLACEMENT
+Node.js - a way of running os level JS
+Bootstrap - A CSS framework based on encapsulated classes
+Browserify - Turning Node packages into 
+https://www.w3schools.com/nodejs/nodejs_url.asp
+Vercel
+Railway
+SQL
+express ???
+Prisma
+Tailwind ???
+Next js
+React js
+Graph ql
+Webflow tons of templates
+Github - use the search function, it's got whatever you want!
+f47c13a09bfcad9eb1f81fbf12c04516e0d900e409a74c660f933e69cf93914e16bc9facc7d379a036fe71468bd4504f2a388a0a28a9b727a38ab7843203488c[SCM]
+Social Media, Streamer,Fashion,Vanity,Professional,Appearance
+
+SCM Make 1 post a day                   PHN`
+###########################################f47c13a09bfcad9eb1f81fbf12c04516e0d900e409a74c660f933e69cf93914e16bc9facc7d379a036fe71468bd4504f2a388a0a28a9b727a38ab7843203488c[MUS]
+Future core Kawaii VJDJ
+
+
+
+
+
+
+
+
+
+
+
+
+
+###########################################
+Become an actual musician/DJ/producer
+    street perform (get contacts and a little $)
+        get good at DJing
+        install deckadance
+        buy turntables
+            check craigslist & poor stuff
+    get good at live performance
+        buy ableton??? FL studio???
+        connect to music
+            lower latency (Oh wait, ASIO is fucking awesome)
+                learn to freeze tracks
+                buy USB audio interface/external sound card (IDK why)
+                    check craigslist & poor stuff
+                buy i7
+                    check craigslist & poor stuff
+            buy MIDI controller/launchpad/beatpad
+                check craigslist & poor stuff
+            master Yamaha piano
+                buy batteries/battery charger
+                just use a cord...
+
+BUY THIS STUFF (when you have money)
+Launchpad or launchpad like device
+Good monitoring headphones
+I don't want speakers because of room acoustics, they're expensive as fuck, and they're heavy.
+
+f47c13a09bfcad9eb1f81fbf12c04516e0d900e409a74c660f933e69cf93914e16bc9facc7d379a036fe71468bd4504f2a388a0a28a9b727a38ab7843203488c[BIL]
+Bills Forms Paperwork
+
+
+BIL Rav4 Redo registration     c1rx DMV,OUT`
+BIL Swap Google Pay Prepaid card   ____ BNK`
+BIL Activate CashPay card
+//BIL Put fax $$$ in Cashpay     cimT NFresno`
+###########################################f47c13a09bfcad9eb1f81fbf12c04516e0d900e409a74c660f933e69cf93914e16bc9facc7d379a036fe71468bd4504f2a388a0a28a9b727a38ab7843203488c[SHP]
+Shop, Build, 
+
+###########################################
+SHP Paper mache to carbon fiber    c1mt SHP`
+SHP Battery circular Saw       c1Nx SWP,AMZ`
+SHP Battery Drill              c1Nx SWP,AMZ`
+SHP Battery Grinder            c1Nx SWP,AMZ`f47c13a09bfcad9eb1f81fbf12c04516e0d900e409a74c660f933e69cf93914e16bc9facc7d379a036fe71468bd4504f2a388a0a28a9b727a38ab7843203488c[EDU]
+Education/Research
+###########################################f47c13a09bfcad9eb1f81fbf12c04516e0d900e409a74c660f933e69cf93914e16bc9facc7d379a036fe71468bd4504f2a388a0a28a9b727a38ab7843203488c[MND]
+Mind and Mental health, !!!, ???
+SYS,MND Compile regret tortilla          MED
+SYS,MND Read Regret Docs            c1Mt MED
+SYS,MND Update pp5                  uINx MED`
+MND Diagnosis word                  OUT,???
++No Fap,Env Control, Digital Cont,Routine|
+HTH Reschedule with ICSI Therapy        PHN`
+  Find mental health community
+  Fresno County Behavioral Health 559 600 5956
+MND Learn from past mistakes            SYS
+MND Learn from present experts          EDU
+MND Porn stop using(???)         med ! u1Nt???
+MND Anger problem                   UIMt EDU
+MND LearnCognitiveBehavioralTherapy ____ EDU
+
+
+
+CBT
+
+
+
+
+###########################################
+f47c13a09bfcad9eb1f81fbf12c04516e0d900e409a74c660f933e69cf93914e16bc9facc7d379a036fe71468bd4504f2a388a0a28a9b727a38ab7843203488cf47c13a09bfcad9eb1f81fbf12c04516e0d900e409a74c660f933e69cf93914e16bc9facc7d379a036fe71468bd4504f2a388a0a28a9b727a38ab7843203488cnew [sys]
+
+Plaintext with enormous amounts of meta data.
+
+20230204 How to upgrade system, WHILE USING IT? Maybe old read only copy, while working on egg?
+
+Mind space is now generative space
+Physical space is now action space
+
+Magic button, priority scheme problem
+
+Problems need to be grouped together because there is a complex dependency relationship that might get lost in the plan to try to solve the problem.
+
+Got rid of ID's You're expected to use search
+
+Was trying to make a system that's position agnostic, WAY TOO HARD, MUST INCLUDE TOO MUCH METADATA (PARTS are position agnostic, other parts aren't)
+
+It was getting ridiculously hard to keep track of what you actually need, amidst all the things things you now have, and all the things you now can do.
+
+You had to separate the things that you actually needed, from the things that you could do on your free time.
+
+The problem was due to a multilayered action structure. Something that doesn't seem important could be a prerequisite for something that is important. (A skateboard is a toy. But this toy can overcome a metabolic disorder. Power outlets are really important, but you don't need them anymore because you have the car, which can power an outlet.)
+
+So we started trying to go back to the basics. Trying to form a way of doing a holistic health check to regenerate all potential problems. This was met with complete failure, as reality was too complicated to break down. So, instead we settled for addressing problems as they came along, in the present, and writing those problems down, so they could be solved optimally across multiple spaces.
+
+This then led to the introduction of a problem/goal based approach, where everything is generated by either it's origin problem, or goal.
+
+This was then merged into the present system, via a tag based approach allowing for a hybrid of the old todo/shop/build system with the current problem/goal system.
+
+
+
+
+
+
+Okay but this new system should make it easy to input stuff wherever it's convenient.
+Uhh maybe thing
+
+Simplified
+Problem
+Goal/Solution
+Plan/Mindspace
+Action space
+Item
+Very important to make standardize form for all inputs. But also make that standardized form mixed with english.
+Action space items can be represented by physical objects at their respective action spaces.
+Gotta make something that holds all the datatypes:
+
+CT1,CT2 Description of item    UIMX AC2,AC1 
+ ID                                        
+###########################################x###########################################
+Mind space, Action space, Description, PreReqs, PostReqs, Priority, 
+
+ToDo list
+shop
+build
+
+Problems exist in physical space so their solutions exist in physical space
+Goals exist in physical space space
+
+20230128 There are generally two ways of finding problems, checking every pathway that's supposed to go right and correcting it. Checking everything that has gone wrong and reacting.
+
+
+New system
+
+Present Physical reality > Problems
+Present Mental reality > Plans
+Goal definite form
+Problem definite form
+definite (boundary condition)
+
+"impetus to change reality"
+|20220413|dsPC-0456|[how]find, don't make boundary conditions.
+|20220413|dsPC-8456|
+|20220413|dsPC-0457|[how]Deviation from reality as a metric of "difficulty", for choosing between plans.
+|20220413|dsPC-8457|                                  
+|20220413|dsPC-0458|This little chart right here:
+|20220413|dsPC-8458|   A>> B  |  ~A<<~B               
+|20220327|dsPC-8459|       yay<nay C Lot of Legos     
+|20220327|dsPC-8460|    __ Create  D Major Boost      
+|20220327|dsPC-8461|      \__                         
+|20220327|dsPC-8462|         \_____                   
+|20220327|dsPC-8463|      +---+---+                   
+|20220327|dsPC-8464| Good | G |-G |                   
+|20220327|dsPC-8465|      +---+---+                   
+|20220327|dsPC-8466| Pain | P |-P |                   
+|20220327|dsPC-8467|      +---+---+                   
+|20220327|dsPC-8468|          _____                   
+|20220327|dsPC-8469|       __/                        
+|20220327|dsPC-8470|    __/nay>yay C Cockroach stomp  
+|20220327|dsPC-7471|Start boundary conditions (present instant)
+|20220327|dsPC-8471|       Destroy D Systemic Problem 
+|20220327|dsPC-7472|End boundary conditions, (specifications for solution or problem.)
+|20220327|dsPC-8472|                                  
+|20220327|dsPC-0473|Letters should be used to denote nodes followed by a single digit 1-9 and 0 will be used for meta information this leaves 260 possible nodes for one plan.
+|20220327|dsPC-8473|  A >> B  (S)Simple               
+|20220327|dsPC-7474|When dealing with nested sub-problems we like to think of time relatively and define events with respect to each other, but time unfolds linearly and simultaneously. The way it is written and read are different .
+|20220327|dsPC-8474| [A]>> B  (C)Convergent           
+|20220413|dsPC-0475|14:17
+|20220327|dsPC-8475|  A >>[B] (D)Divergent            
+|20220413|dsPC-7476|"I’d suggest that it might be helpful to think of attention in light of the range of possibilities created by our two spectrums. Along one axis, we range from bodily to mental forms of attention. Along the other, we range from mediated to unmediated forms of attention. (Granted that our attention is never, strictly speaking, absolutely unmediated.) This yields a range of possibilities among the following categories: bodily, mediated attention; bodily, unmediated attention; mental, mediated attention; and mental, unmediated attention. Consider the following as ideal types in each case: the musician, the dancer, the scientist, and the philosopher."
+|20220327|dsPC-8476| [A]>>[B] (N)Network   
+  A Goal is the impetus/urge to create a form/shape of reality. Goal definite form future, plan indefinite form present
+Action of editing reality.
+  MANY DIFFERENT WAYS to edit reality.
+  Actions to do.
+  Things to get.
+  Forms to build.
+  Ideas to develop.
+  Processes to code.
+  People to contact.
+  The main thing here is that they all are editing reality accessible to the PRESENT.
+
+Making it even more confusing is that lying a problem>solution goal<plan on top each other is a poggers combo.
+
+Take all the items in the todo/shop/build list and render into problems goals procedures which are instantiations of the problems and goals. The idea is to make my problems more accessible.
+
+(Summarize and shove this into SYSTEMS.)
+Oh I was also supposed to take all the items in the hows and turn them into todo list, shop list, and build entries. AND What I noticed is my todo list and shopping list really is just a thrown together hodgepodge of stuff with no reguard to internal organization.
+
+STAGE 1 random documents with project stuff everywhere, totally unusuable
+STAGE 2 stuff gets centralized, organized, but hard to use.
+STAGE 3 random documents everywhere in a standardized form, which information is extracted from to form holistic action book.
+
+TERMS
+  Past
+  Present
+  Future
+  Reality
+  Shape/Form of reality
+  Problem
+  Solution
+  Goal
+  Plan
+  Spaces
+  Mind Space
+  Physical Space
+  Trajectory
+  Steps
+  Creation
+  Destruction
+definite
+indefinite
+impetus
+prompt
+combo
+translation
+generation
+implementation
+creation -> existence
+destruction -> nonexistence
+Rock - Who is present an does not judge anything.
+Observer - Who can see but can't do.
+
+Problem is impetus to destroy form of reality with a solution.
+Goal is impetus to create form of reality with a plan.
+Problem exists in physical space(present total).
+Goal exists in mind space(present total).
+THIS ONE IS HUGE BECAUSE IT SAYS THAT PROBLEMS ARE THE ONLY THING ACTUALLY ROOTED IN REALITY.
+Problem (definite form) grows upwards from the (ACTUAL NOT MIND SPACE BUT LITERAL)present.
+Solution (indefinite form) grows downwards from the (present mind space project of the) future.
+Goal (definite form) grows downwards from the (present mind space projection of the) future.
+Plan (indefinite form) grows upwards from the (present mind space projection of the) present.
+
+Problem is definite form.
+Solution is indefinite form.
+Goal is definite form.
+Plan is indefinite form.
+Generation. (From basics)
+Recording. (Of past)
+
+https://weeklymusings.net/weekly-musings-092
+https://write.as/new
+collectednotes.com/emnolopeproto/
+
+PROBLEM or GOAL is the IMPETUS to change the FORM OF REALITY. Goals and Problems are definite. (Present is only existence. Even if they project to future or past, the projections themselves are real.) Goals in future. Problems in present. Problems grow to future solutions grow backwards. Goals grow from future to plans grow forwards. There are many TRAJECTORIES between pairs. Each trajectory is a PROCEDURE. A procedure is made in (planning)mind space, and is executed in physical space and (action) mind space. 
+f47c13a09bfcad9eb1f81fbf12c04516e0d900e409a74c660f933e69cf93914e16bc9facc7d379a036fe71468bd4504f2a388a0a28a9b727a38ab7843203488c[.$#Q%]
+//R It is getting colder / Winter is here
+//- Lack of breakfast powder.  SYS,HTH 
+//PRB pennyboard snapped             VCL uim?
+//PRB Bike Inner tube blown          VCL c1N?
+//O Exercise is necessary. Go find a sport.
+//GOL Dopamine
+//RTN Jobs/Gigs (Bulletin Board)
+//BIL Finish SAR7                    ,:NT PHN
+//Turn in SAR7(EBT)
+//PPL Organize YJCP contacts         u:NT PHN
+//VCL Tireliners for bike        ,inT TRH,AMZ    
+//VCL 20" inner tube for bike        u1NX AMZ
+//SYS Update car fulu                CImX PRN
+// Redo car fulu                 web L CINT
+//SYS Update Bike fulu               u1nT PRN
+//SYS Add fulu to bike               CimT PRN
+//PWR Usb C BMS                      CimX AMZ
+//IDX PartsPit/BoxInventoryDev     sto s c:Nx
+//SEC Investigate car alarm      cInx CAR,MK5
+//Start sleeping early > RTN
+//Get a Dentist                  phn  u1NT
+//Fix your teeth                 phn  uINx
+//HTH Reprogram light alarm         +C1mT SHP
+//+|Get light Alarm
+//HTH Get Light Alarm                ____ ???
+//+ https://www.ebay.com/itm/175305363706
+//+|Fix Sleep schedule
+//HTH Good Rectal soap               U1nX MK5
+
+###########################################
+
+Long priority, place to do, deference location???, category, how long does it take (long term short term?)
+Short priority, long priority, place to do, deference location???, category, how long does it take (long term short term?)
+go through the trash, as a sport     -
+
+# ToDoToDoToDoToDoToDo
+
+# Shopping/Build/Pick List
+
+# ToDoToDoArchiveToDoToDo
+# TODO RECORD
+//New
+//Old
+
+# ShopDoShopDoArchiveShopDoShopDo
+# SHOP TODO
+
+Is it something to
+Is it an idea prevailing space and time?
+Can it be locked down to a specific place/time/action? -> TODO SHOP SHOPDO
+TODO? Does it revolve around an aquirable product or item (usually material bit can be digita
+ artifact)? NO. -> TODO
+SHOPDO? Can you exchange money to get it in a simple way? YES. -> SHOP
+SHOP? NO? -> SHOPDO
+
+ Urgent
+    Imporant
+      Multiplicative
+        not eXpensive
+
+if (0?<+8*) yes
+else (0~@^!$L) yes
+finally (wfcvtiehbs)
+
+### Priority Guide
+* UIMX URGENT IMPORTANT MULTIPLICATIVE CHEAP
+* C1NT
+* uimx Urgent Important Multiplicative Substantial
+* c:nt
+* ,.rv stable minor oneoff expensive
+Urgency should be necessitated not preferred.
+
++=========+
+| U I M X | Today, live for it, opens a new world, free
+| C 1 N T |   Next week, it's important, extremely useful, pretty easy
+| u i m x | Next month end, yeah care about, useful day to day, costs noticeable
+| c : n t |   Next year, I barely care about, useful rarely/little useful, very very difficult
+| , . r v | Never, do not care, useless, costs an arm and leg
++=========+
+med:meditation zone
+ide:digital workshop/integrated development environment
+out:outside
+web:world wide web, the internet
+pnt:printer
+edu:learning zone/school/library
+sto:storage
+----------
+# ToDo [.] #
+----------
+//////////////////////////////////////////
+. Task that you have to do    where 0 UIMX
+
+//. [SYS] LIT Baseline        web med ? uIMT (-stupid losses)
+//. [SYS] LIT FULU            prntmed ! uImT (-stupid losses)
+
+###########################################
+JOB Cut n shape laser fiber      web $ cimx
+//. Interface protectedtextcom     web ! ,1mx
+SYS     Clean emnolope how       med ! c1NT
+FSD Attend Bitwise JS            
+. Rav4 Redo registration 
+PPL Hangout with good company          ,VRC
+HangOut With Good Company com out 8 c1NT
+//. Ask Robert Parts Dealer       com @ c:mX
+Lockpick learn how to     med shp L ciNx
+WeAreImago                web med ? u:mx
+Program Microcontrollers  ide shp ! c1mx
+Dump car seats                    L c1mT
+Sell food/drink items sidehustle  $ ciNx
+Digital note system backup        ! ,1nT
+Monetize Car                      $ uiMt
+[IDX]VanExchangeUpgradeBagsBoxes  * CimT
+[STR]refine creator/streamer      @ ,1nt
+Cleaning method                   ! C1mx
+[STO]Storage area find/make   out s c:Mx
+[COM]Deescelation Learn           ^ u1Nx
+{Gasoline Tank Fill               L uImT
+[SEC]Security                    s* ????
+}Wash clothes                     * c:mT
+Inbox unification                   ,:mx
+[COM]Anger/Stress Management      8 ciNT
+buses farther routes              L ,.mx
+Book Highligher/notes/annoation   ? cimT
+superfoods list update            + ,:mT
+Sell OnArthop/Craigslist      irl $ ,1mx
+Books and Video Game make habit   ? u1Mx
+Google Maps see all           web ! u1mx
+[?_job]Frog Tutor HELP        web _ _:nT
+notes paper digitize          web ! u:mx
+cloud files and notes clean   web ! c1mT
+trash diving as a sport       out + c:mx
+[edu]Engineering degree web get   ! ,iMv
+Carbon fiber familiar             L c1Nt 
+[?_str]Song Covers Record         i ,1mT
+Indeed profile Refine         web $ ,:mx
+old phone import                  ! c:rx
+artificial intelligence dev be    ! ,IMv
+fire shoot wrist mech             ! ,inx
+[?_job]Professional pic      out @$ c:mT
+Bum builder buddy find        web 8 ,1Nx
+Music list go over                ? ,1nX
+Live in Tree                      ? ,1rt
+[?_JOB]Pedagogy-"mastery"     web ? ,imt
+Find qt femboi bf             irl 8 c1mx
+Animate anime girl            sci 0 ,IMv
+start up create                   $ ,IMv
+Start up join                     $ ,imt
+Air Conditioner prototype comp   $L ,1mv
+Air Conditioner prototype sell   $L ,:Mx
+Fly as human being                L ,1Nv
+learn more about stem cells
+
+
++=========+
+| U I M X |
+| C 1 N T |
+| u i m x |
+| c : n t |
+| , . r v |
++=========+
+-----------------------------------
+# Context/Situation/Environment [Q] #
+-----------------------------------
+###########################################
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+Your state space is huge, so act appropriate
+Look at far of todo items. What was impossible is now possible.
+Your micro environment is no longer self cleaning
+You are a bigger more stationary target, and most defend that target
+
+
+
++=========+
+| U I M X |
+| C 1 N T |
+| u i m x |
+| c : n t |
+| , . r v |
++=========+
+------------------
+# ShopDo/Build [%] #
+------------------
+//////////////////////////////////////////
+% THING TO BUILD/RESEARCH           _ ____   
+% [VAN]Roof box/rack/Kyack          s ,:Nt(+indexing system)(-bike vulnerable)(-van cramped)
+% [TRLY]BigTrolley(bike)            v c1mx(+mk system)(+trolley fun)(-backup plan)
+% [pwr][VAN] big battery              e ciMt(+pwr system)(-laptop charge)(-quest charge)
+% Motorcycle Bike                   v cInT(+evehicle)(+mk system)
+% [VAN]car kill switch                   v uInt(-thieves)(-battery dead)
+% [VAN]Rav4 Window Covers                s u1nT(-car greenhouse effect)(-privacy)
+% Backpack/Packframe                s u1Nt(+mk system)(-backpack falling apart)
+% [pwr]Van cigar ext cord           e C1mT(+pwr system)(-banks hard to charge)(-car front cramped)
+% [pwr]42TO5Volt USB connector      e uiNT(+pwr system)(-power banks are small)
+% [pwr]CC DC booster                e cimT
+% powertools which?                 t u1Mx
+% Burner/Backup/Verify Phone
+
+% Phone epoxy ratio perfect         i u1nx
+% AudiobooksResearchDev             ? cIMx
+% phone wearable?           web diy i C1NT
+% Live WMD USB drive                i cImx
+% [VAN]TearGasBomb(ClearOut)AutoMech     t uInt
+% Tent/Teepe/Urt Research           s c1mx
+% Van water tanks                   w cimx
+
+% Meditation without breath         i ____
+% chopsticks(buy)                   f ,1mt
+% Paper Map                         ______
+% Switch to Credit Union?           ______
+% cook workspace what is?   trh diy f u1mx
+% water thermal battery             ______
+% VibrationBed                      ______
+% [?_sec]alarm trigger mech         s cINt
+% car camoflauge                    v ,imx
+% clawed hand wear                  t ,1mx
+% trash pouch                       s UImX
+% Improvisation research book       L u1Mx
+% [?_TRLY]HugeTrolley(car)          v ,iMt
+% SafetyGlasses+LiquidGlass+Rope    t cINx
+% [eat]How do I fuel body?          f c1Nx
+% turret drone                      s c1Mv
+% powerfist                         t ,Imv
+% super tent                        c ,1nx
+% air conditioner prototype         i c1Nt
+% drone inf 4g range                i uIMv
+% cold clotes eskimo research   web c c1Nt
+% myomer                            t ,1Mv
+% floating air platform             c ,Inv
+% laser Homebrew giant              i ,1nv
+% suit strength super               t ,1Mv
+% Fire Indep                    web b CINx
+% rocket stove parts                b c1nT
+% [pwr]Batteries                    e cInt
+//% [pwr]15A fuse for car             ______
+//% Mobile power banks                ______
+
+
+
++=========+
+| U I M X |
+| C 1 N T |
+| u i m x |
+| c : n t |
+| , . r v |
++=========+
+-------------
+# Shop/Pick [$] 
+-------------
+//////////////////////////////////////////
+$ drone video      pwn swp used web i uiMx(+technology)(-can't travel fast)
+$ Magnetic phone charger            e ,1nx(+technology)(-phone delicate when charging)
+$ LG G5 (Another)                   i uInT(+technology)(-phone screen cracked)
+//$ Shovel                    sur web t ,1mx(+tools)(-car gets stuck in ditch)
+$ Merino/Alpaca thermals            c u1mT(-too cold)
+$ Protein Powder                    f CiNT(+health)(+routine)
+$ Pot & Lid                     trh f c1mT
+
+PWR Car Inverter amzn B074KWP2HJ  uiNT AMZ
+$ super glue(Cuts)             str th u1NT
+$ smallhandsanitizer            trh h u1mT
+$ [pwr]Solar panel                  e u1Nt
+$ bags                 $tr groc trh v u:mv
+$ Sewing kit                        t cimT
+$ Merino Thermals for Claire
+$ Outlet multiplier
+$ Wakey mask
+
+
+//$ Conference Earbuds                ______
+$ -UV Glue                          ______
+$ LG G5 Battery                     ______
+$ Ebook Reader                      ______
+$ quality bags                      ______
+$ Safety Glasses + SiO2 + Rope      t c:Nx
+$ Safety glasses             broke  t ____
+$ AngleRazorBlade                   t ____
+//$ Tire Sealant                      ______
+//$ 2 Amp car charger                 ______
+//$ Coroplast                         ______
+//$ laptop                    web swp i uINx
+//$ -Multimeter                   web t u1Mx
+//$ -Hot Glue gun                     s ,:nT
+//$ -Hot Glue sticks                  s uiNX
+//$ -2 part epoxy                 web t ciNx
+//$ -Paper tape                       t ???? didn't lose enough
+//$ -cc dc booster                web e u1mx
+//$ eBike ESC
+//$ -Packaging tape                   t ???? didn't lose enough
+//$ -Butane                           b u1mT
+//$ Whiteboard markers    
+$ File(Metal)                       t C:Nx
+$ duct tape                         t CiMT
+$ Quality axe                       t ____(+emergencies)(+woodfuel)
+$ Fishing equipment                 t ____(+Hill billy)
+
+
+$ -UV glue                          t ,:nx
+//////////////////////////////////////////
+$ [eat]Portable Blender/SlapChop    f uINx
+$ van roof vent with guard          c U1mx
+$ SleepingSurface                   c u1nX
+$ SocksPairs                        c C1NT
+$ Exterior Jacket                   c u1MT
+$ Electric Blanket    wmt amzn COLD c c1mx
+$ Electric Jacket                   c 
+$ [?_trly]IceChest                  v uINx
+//$ skateboard (Backup)             v u1mx
+$ Tools for Rav4                    t CIMT
+$ usb ac chargers                   e c1NT
+$ battery bank                  web e C1Nx
+$ backup battery starter        web e Cinx
+$ 12v to 42v charger                e u1Nx
+$ 12v to 120v inverter              e u1Mx
+$ car battery meter                 e ____
+$ wood lumber                   hrd s uiNT
+$ phone video rig (tripod)      web i u1NT
+$ goggles or glasses                c cInT
+$ Grabber/Hook stick                c CiNx
+$ WaterFilter                       w ,1nx
+$ Sillcock Water                hrd w c:mT
+$ 2nd stomach upgrade               f u:mT
+$ steel cooking sheet               f ,:nx
+$ [eat]Hunger Stimulant(Gentian)    f ,1mt
+$ Zeer pot                      diy f ,.mT
+$ [eat]Blender Portable             f c1Nx
+$ extra masks                       c c:nT
+$ mosquito paper                    c ,inT
+$ Camoflauge                        c u:Nx//camoflauge
+$ scrunchies                        c c1NT
+$ HiVisVest                         c ,:nx
+$ SkinShieldSunScreenLaundryClay?   c uiNt
+$ Dessicant                    COLD c c:nT
+$ Poncho Tarp                  COLD c ____
+$ kevlar insoles           web COLD c cimx
+$ LanolinChapstickOintment phr COLD c cImx
+$ BlackScrubPants                   c ____
+$ BrownDressPants (bad)             c ____
+$ PurpleDressShirt                  c ____
+$ 2xUnderwear                       c ____
+$ Blue Button Up Summer Shirt       c ____
+$ Nitrile gloves                    c ____
+$ Plastidip                         t uiNx
+$ Rake                          trh t ____
+$ Clamps                        hrd t ,irv
+$ Dremel                        hrd t ,imx
+$ GuitarPicks                   web t c:Mx
+$ HexSocketSet                  swp t uiMx
+$ HexScrewBits                  swp t ciMx
+$ Puncture Resistant Gloves         t c:mx
+$ [sec]Weapon(KnifeSwordChain?)     t uImx
+$ acetylene torch                   t ciNT
+$ liquid glass coating              t ____
+$ razor blade angled              hrd t uiNT
+$ MINI TOOL SET:                    t ____
+$ RazorCase                         t ____
+$ StraightRazorBlade                t ____
+$ DrillBitThick                     t ____
+$ CellphoneRepairBag                t ____
+$ SIMEjector                        t ____
+$ GuitarPicks                       t ____
+$ PlasticSpatula                    t ____
+$ ClearRuler                        t ____
+$ Giant stick (broken)              t ____
+$ SmartphoneThat'sNotSuck           i ____
+$ USB cords                         i u1mT
+$ Portable4G/WifiExtender   web diy i ,1mt
+$ AC parts                      sto i u1rt
+$ LG G5 screen protector            i ____
+$ Mic & Earbuds Splitter TRRS       i u1mx
+$ Portable4G/WifiExtender   web diy i cimx
+$ PaintBrush            art web trh i ,:nt
+$ WaterProofPaper(TeraSlate)        i ____
+$ night vision goggles              i c:NX
+$ }Notebook                         i c1MT
+$ }paper tape                   str i c1mX
+$ Aux extender                      i ____
+$ MicroUSBtoUSBWires                i ____
+$ USBCtoUSBWires                    i ____
+$ PurplePandaAccessories            i ____
+$ Pencils                           i ____
+$ RaspberryPi                       i ____
+$ BlankIDBadge                      i ____
+$ TRRS Splitter                     i ____
+$ gen->Wind turbine                 e u1Nt
+$ waterpik                          h ____
+$ Deep Cleaning Gloves          str h u1Mx
+$ HandSanitizerBig         peds mkt h u:mX
+$ comb working                      h c1mx
+$ PortableUltrasonicClean           h ,imx
+$ BucketLid                     trh h uimT
+$ Condoms                           h ____
+$ ShavingRazorHeads                 h ____
+$ ShavingRazorStems                 h ____
+$ Microfiber cloth                  h ____
+$ SandingScreen                 str h uiNx
+//$ Dremel Torch                      b ,1Nx
+$ Shoe Goo glue                     s uiNT
+$ more screws and nails         hrd s ,irv
+$ Cable locks(Python?)              s c:mx
+$ more screws and nails         hrd s ,irv
+$ Glue                              s u:nt
+$ Glasses Case                      s ____
+$ Sharps Container                  s ____
+
+//$ Quest 2                       web i cIMt(+technology)(-impedance match)
+//.phone charging box                  i u1mT Depreciated, magnetic phone charger alternative
+//zipper4Satchel                  web v c1mx
+//.[?_TRLY]SmallTrolley(board)         v c1Nx
+//.CarProtectWeather(sun/rain)         v C1Nx
+//.ebike motor kit                     v CIMt
+//LazySuzan(Human sized)  antique trh c u1Nx
+//LaundryDetergent                str h CimX
+//WireShrink                          s ____
+//pens(storage)                       i ____
+//TelescopingMagnet(in Storage)       t C:NT
+//Pens(Storage)                       i ____
+//SleepingBag                         c c1NX
+//toothpaste                          h ____
+//car usb chargers                    e cimT
+//two epoxy                   hrd web t C1Nx
+//jifficutter                         t C:mT
+//markers                         str i C1MT
+//Servus rain boots                   c u1mx
+//Sunglasses                          c c:nT
+//SEWING SET                          t ,:NT
+//sewing set                          t u:mT
+//calculator                      web t uinx
+//TOOLBAG                             t ____ > [.] 
+//BitsBag                             t ____ > [.]
+//(Soft)BristleToothbrush    mkt phr} h ,1nt
+//Tooth Flosser               mkt phr h u1nt
+//[EE]Torch Lighter                   b u1Mt
+//HalfGrillBasket                     b uiNT
+//NeodymiumMagnet                     s cimT
+//much protein cookies/powder     grc}f CINT
+//clothing fancy                      c 
+//bike pump                       str v uINx
+//Helmet(D30?Bumpcap?)         web    v UI
+//Bike lock                           v uImx
+
+
+
+
+
+# ToDoToDoArchiveToDoToDo
+# ToDoToDoArchiveToDoToDo
+# ToDoToDoArchiveToDoToDo
+//New
+//[?_PWR]Power outlets find     out L ,.nt
+//rehash EDC/Inventory              * ciNT
+//Make the car a living room    car s CINx
+//[SYS]5W1H 2 SYSTEM            med ?????? Weird primitive way of reality deconstruct
+//[?JOB]Canvas/Petition for Oii     $ C:Nx
+//Paint fence                     8+$ u1NT
+//[?IDX]Backpack system iterate     * CimT
+//visit family in Chicago           8 c1mt  everywhere you "visit" you move, because you are have hobo strength
+//[?HTH]Teeth fix                   + uImx
+//dentist Dr Roque Appt               + uImT
+//create thickened oil dielectric     L ____ I succeeded and it was awful.
+//Redo [PH] Donts                     ? CInT
+[?_ALT]altruism                     ? ____ > [?_]
+//Heal wounds                         +     
+//KILL TEENAGERS ENSLAVE BULLDOG            //forgiveness acquired
+//heat and sun counter                + u1mx//
+//embedLIT/SpaceFULU                  ! ciNT
+//camp layout formalize (TarpDraw?)   * Sumter
+//who/contact system make             8 ,IMT
+//backpack quick select               * CiNT
+//[com]Text message categorize        ^ ,1Nt
+//influence chart create              8 ,INx
+//[?_pwr]HowPowerDevices?             e ____
+//cook some beans                       -
+//fix parselame function in google colab=
+//follow up on CMAC                   
+//Philipines hobo research trip       L ____
+//find strengthening paint //Plasti dip!!!
+//* CloudDocumentManageSys            //we chose ONE document on stack edit to hold all the url
+//attend reuinion                     8
+//Update TodoShopCal                  !#CiNx
+//Fresno One Intern Follow Up       @^$
+//get a job with EOC                
+//go to Phillipines                   8#uiMT //Superseeded by job
+//Satchel Snapshot                    *#c1mt
+//Backpack snapshot                   *#uimt
+//Chest Snapshot                      *#C:Nx
+//LGBTQ&nDiv Community                8Hc1Nx
+//clean out ice chest                 *H    
+//Get stuff from eviction site        sH
+//Distribute abilities                0H    //No
+//Confirm dentist appt 5592245423   +#CIMt
+//Refactor ToDo list Make stocks    $#
+//fix whatsapp                      8H
+//charge phones                            
+//check bank account balance         +
+//shower                             +  +    
+//[mth]make another LCO class       web=cinT
+//* Consolidate Digital Notes cmp    =u1Mt
+//} Backup  House Poster phn    =u1nT
+//apply aquaphor to insides of all phones = //was horrible mistake
+//water tank 3L                       w uINx //cumulatively you can hold >3L of water
+//LegacySScreen>Streamer       web    uimx
+//spray bottle head
+//find adapter for skateboard battery eH    
+//call bike shop for cheaper bike           +
+//tarp maintanence                    s c1mx
+//add pockets to pants                  
+//Paint-on strengthen armor?          s u:Mt
+//Book summary service(system?)     web-,1Nt //is stupid
+//Old
+
+# ShopShopArchiveShopShop
+# ShopShopArchiveShopShop
+# ShopShopArchiveShopShop
+//New
+(-) water bottle                        w
+(-) chopsticks                          f ____
+(-) Food Bag(empty)                     f ____
+(-) Servus Boots                        c ____
+(-) Backup skateboards                  v ____
+(-) CLOTHING BAG                        v ____
+(-) BlueBackpack                        v ____
+(-) WASH BAG                            v ____
+(-) CAMPING BAG                         v ____
+(-) BagPot                              v ____
+(-) TECHBAG                             v ____
+(-) PurplePandaMicBag                   v ____
+(-) SocketSet                           t ____
+(-) ScrewBits                           t ____
+(-) Calculator                          t ____
+(-) scissors                            t ____
+(-) markers                             i ____
+(-) USB Flashlight             broke    i ____
+(-) 4 way silcock water key             w
+(-) Bible                               f
+(-) Safety glasses(cheap thin)          t
+(-) broken battery bank                 e
+(-) toothbrush                          h
+(-) flosserpicks                        h
+(-) bottle of liquid detergent          h
+(-) torch lighter                       b
+(-) 2x USB Charger                      i
+(-) USB C cord                          i
+(-) usb charger                         i
+(-) usb c cord                          i
+(-) micro usb cord                      i
+(-) Servus Boots                        c
+(-) Helmet                              v
+(-) Hose                                w
+(-) Pot                                 f
+(-) PotLid                              f
+(-) SkateTool                           v
+(-) BikePump                            v
+(-) PLUSIVO ELECTRONICS KIT             t
+(-) Tweezers(1)                         t
+(-) Tweezers(J)                         t
+(-) TinyScrewdrivers                    t
+(-) CellphoneScrews                     t
+(-) Sponge                              t
+(-) SolderingTip~?                      t
+(-) WireStripper                        t
+(-) Needles                             t
+(-) Thimble                             t
+(-) StartStick                          t
+(-) HoeEnd                              t
+(-) ShovelEnd                           t
+(-) RakeEnd                             t
+(-) MultiMeter                          t
+(-) SmallDykes(broken)                  t
+(-) RatchetScrewDriver                  t
+(-) Ratchet(broken)                     t
+(-) ThickerSteelSawBlade                t
+(-) HotGlueGun                          t
+(-) MS210BackupBattery                  i
+(-) GlassScreenProtectors               i
+(-) MultiColoredPaint                   i
+(-) Sharpies                            i
+(-) Tripod                              i
+(-) PhoneCamHolder                      i
+(-) LM386MicPre                         i
+(-) PowerAdapter                        e
+(-) LinearLoofah                        h
+(-) LaundryDetergent                    h
+(-) SandingScreen                       h
+(-) Toothbrushes                        h
+(-) TackNails(Bagged)                   s
+(-) JBWeld                              s
+(-) SuperGlue                           s
+(-) ElectricalSolder                    s
+(-) ElectricalTape                      s
+(-) Wire                                s
+(-) SolderWick                          s
+(-) SewingButtons                       s
+(-) SafetyPins                          s
+(-) Thread                              s
+(-) DuctTape?                           s
+(-) GlueGunSticks(InBag)                s
+//backpack Upgrade                trh v cImx //My backpack is great.
+//SkateTool                           v uINx
+//Bags                                v ____
+//multimeter                          t ____
+//TinyScrewdrivers               web  t c1MT
+//Shovel                         trh  t c1NT
+//Plusivo electronics kit        web  t uIMx
+//[idx]GreasePencil???            web i ____
+//Earbuds                             i u1nt
+//extension cord              swp hrd e ,iNx
+//LinearLoofah                   str  h u1Nx
+//GlueGunSticks                  str  s uiNT
+//Replace water bottle            str w u1Nt
+//Water Bladder(5L~)                  w ,:nx //Water bottles cheap and plentiful
+//Hose                       hrd trh  w C1mt
+//spray bottle head                   w ____//superceded by nozzle cap
+//Multi Vitamins                      f ,1nx
+//Gigantic Tarp                   trh  c uIM
+//Multi Vitamins                        ,1nx 
+//bible                                 UIMT
+//[EE]Multimeter           trh web      cINx
+//Paracord                     WEB      C1Nt
+//>bike
+//get bike  >Lv                       vH    
+//[pwr]USB A female            trh  c1mx
+# To Do
+* 4 UnderstandCommunication[com] ???  
+* [sys]5W1H2SYSTEMCORE           med  CIMT
+* [job com]WeAreImago Train      web  CiNx
+/ [job]DevelopPersonalBrand      web  cimx
+* [mth]Frog Tutoring seo HELP    web  cinx
+* become streamer                phn  c1nx
+* 5W1H Who? Word/Contact         phn  cINx
+{ Print/Update TodoShopCal [.#$] prt  U1mt
+* Inherit Rav                    fam  u1Mx
+* integrateWithLGBTQ&nDiv        twr  uIMx
+* SellOnArthop/Craigslist        irl  c1NT
+* Consolidate Digital Notes      cmp  u1MT
+} Backup Paper House Poster      phn  u1nt
+* Find storage location      map out  c1Nx
+* [com]Category texts            phn  c1Nt
+* GMap See All                   web  u1mx
+* 6 HowPowerDevices?[pwr]        ???  CINX
+* 7 HowToSecurityItems?[sor]     ???  CINT
+* 4 How to index stuff?[idx]     ???  CIMT
+* Find All Bussses with system   ???  u1NT
+* [hth]Anger Management      psy web  cINx
+* Call Dental Surgeon 4440444    phn  C1Mv
+
+* [mth]make another LCO class    web  cint
+* [com]ReadCommsBook(t.ly/9YsZ)  med  cINx
+* Refine Indeed profile          web  c.mx
+* [edu] study AI                 web  cIMX
+* MultiFrequency Calendar Build  web  c:MT
+* [edu]Learn Engineering         web  ,1NX
+* Find a fellow trash builder    web  c1Nx
+* [job]Professional smile pic    out  u:mt
+* Digital Library Highlights     web ?uiMx
+{ clean up the cloud[cc]         web  c1NT
+{ Digitize notes                 web  u:mt
+{ Backup Digital Notes(system?)  med  cInx
+} Wash clothes                   med  uinx
+* [pwr]FindMoreOutlets           out  u1mx
+* Book summary service(system?)  web  ,1NT
+/ learn lockpick                 web  u:nx  //Why was this a thing?
+* [com]AngerRecog&Descel     psy web  cimT  //the less gangsters I meet, the less relevant this becomes
+* MasteryLearningPedagogy        web  ,:mT  //Student want pedagogy but Hobo not. Live now, not past. Needs soapbox or to teach for relevance
+* Master Cleaning                web  ,iNT
+/* Sell IceCream/Drink/H2O/Cold   out  c1NT
+/ A/C prototype[AC]              shp  ,1nT
++=========+
+| U I M X |
+| C 1 N T |
+| u i m x |
+| c : n t |
+| , . r v |
++---------+
+
+# HABITS > DELETE THIS, MAIN COPY IS IN PAPER HOUSE
+## 🌅
+* Wake Up Early
+* Breath for 10 minutes
+* Protien Powder
+* Read Don't list & Others
+## ☀️
+* Check Financial Markets
+* Check Messages (Email, Facebook, Discord, Phone)
+* Check Jobs & Gigs
+* Check Free Stuff
+* Check Tutoring
+* Go outside
+## 🌇
+* NightMeal
+* Brush Teeth
+* Clean Up
+* Charge Phone
+* Reflect
+* Pray
+## 🌙
+* Dump Poo Pee
+
+# Go-Pack RESET ALLO THOS: >DELETE THIS RENAMED TO EDC AND WAYYY FORMALIZED NOW SATCHEL+BACKPACK+CHEST
+500k
+BIBLE
+WALLET                **e**
+SMARTPHONE            **e**
+KEYS(+LANYARD+MARKER) **e**
+
+50
+MASK                  **e**
+BELT                  **e**
+HAT                   **e**
+WHEELS
+WATER BOTTLE (FILLED)
+FOOD POUCH(~~EMPTY~~)
+DAY BUS MAP           **e**
+ROLL UP PEN m
+USB CHARGER m
+MULTI TOOL m
+TORCH m
+NOTEBOOK
+EARBUDS m
+
+5
+Rope
+Exterior
+WaterSpray
+Chopsticks m
+HeavyLawnBag
+ToothBrush m
+DriedDetergent m
+USB WMD m
+MiniMultitool m
+
+0.5
+HookStick
+Gloves m v
+Powerbank 
+ExtraClothes
+Toothpaste m
+HandSanitizer m
+NourishmentPowder
+Teamviewer
+BackupPhone
+DumbPhone
+BusMapNight m
+Magnet
+Lighter
+MicLavalier
+TrrsSplitter
+ExtraUsbCharger
+CleanBox(DriedDishSoapBleach)
+
+# DON'T
+* DON'T clean unless you have a reason to. 
+* DON'T clean up immediately after waking up, it's guilt based and you'll lose energy fast.
+* DON'T clean up Internet tabs with the Internet on.
+* DON'T try to force yourself to sleep and wake normally.
+* DO identify positive cycles and write them on your arm
+* DON'T buy all your groceries at once.
+* DON'T EVER go to sleep cold or hungry, you'll be more tired by the time you wake up!
+* DON'T pick your skin and nails, the cost is asymmetric!
+* DON'T do anything physical while extremely tired, you're likely to break more than you create.
+* DON'T try to fight the heat or cold directly, solve them first, THEN do what you're trying to do.
+* DON'T just bear with sleeping uncomfortably, change the environment. It can wreck your sleep, which can enedanger your life.
+* DON'T ask WHY in your moment of trial, instead ask HOW?
+* DON'T shit every day, instead shit every other day. It controls your metabolism, and it's cleaner
+* DON'T go on your computer first thing in the morning, stay IRL for 1 hour.
+* DON'T fap when you know you need the energy for something later.
+* DON'T look at pornography, it takes up too time and energy.
+* DON'T heal naturally when you can augment yourself with artifical and external tools.
+* DON'T leave things in a state of chaos.
+* DON'T try to conserve items that are cheap and valuable, instead stockpile them.
+* DON'T panic.
+
+# Shopping/Build/Pick List
+* 5 FoldingCart4Trolley U^       ?!?  c1mx
+* 4 Phone charging box           trh  c1nv
+* 6 [pwr]USB A female            trh  c1mx
+* 5 backpack U^                  trh  uimx
+* 7 [sor] CircuitBentAlarm       trh  CiMT
+* 7 [sor] ShortCircuitTrigger    trh  cIMx
+* 6 Grabber stick (vs hook)      diy  c1mx
+* 6 Battery Powered Drill        swp  u1MT
+* 6 Battery Powered Grind        swp  u1MT
+* 6 [pwr]Solar panel             swp  c1MT
+* 6 [pwr]Batteries               swp  c:Nx
+* 6 [EE]Torch Lighter            gas  u1Mt
+{ 4 Notebook                     grc  C1Mt
+* 1 bible                        chr  UIMT
+* 4 laptop                   swp web  c1mx
+* 4 [EE]Multimeter           trh web  cINx
+{ 6 Paracord                     WEB  C1Nt
+* 4 Quest 2                      web  cIMT
+* 4 [idx]GreasePencil???         web  uiNx
+* 4 LegacySScreen>Streamer       web  uimx
+ShopDo?
+* 2 WhatIsFoodCookWorkSpace? trh diy  u:mx
+* 1 Eskimo Clothes Research               
+//spray bottle head, 2 usb c cords office dep, small bottle for soap, rain suit
+
+
+} 2 protein powder               grc  CINx
+* 1 Deep Cleaning Gloves              ciNt
+* 61GoodSewingSet          craft web  ,imx
+* 2 Stove (Rocket C) Again >engi      c1Nx
+* 16Dessicant                             
+* 3 Lanolin/Chapstick/Ointment   phr  UImx
+* 16Goggles vs glasses              
+//* 6 [pwr]42TO5Volt USB connector          
+* 2 [eat]How do I fuel body?          
+* 2 [eat]Blender Portable             c1Nx
+* 2 [eat]Hunger Stimulant(Gentian)    c1mt 
+* 6 [sor] Weapon(KnifeSwordChain?)    u1mx
+ShopDo
+* 4 How to improvise Book Research        
+* 4 WearablePhoneResearch    web diy  c1mx
+//* CloudDocumentManageSys                  we settled on fivemade.in... b/c it's accessible EVERYWHERE
+* 6 Hardening Spray Research              
+* Find decent book summary service    u1MT
+} 6 Duct tape                             
+/ 4 PaintBrush           art web trh  ,:nt
+/ 4 Portable4G/WifiExtender  web diy  cimx
+/ 2 Multi Vitamins                    ,1nx 
+} 3 CA glue                      $tr  uiNt
+} 4 paper tape
+} 3 Water Bottle               (UIMx) ,imx
+} 35HandSanitizerBig        peds mkt  ciNt
+/ Python Master locks                 cimT
+/ 1 Zipper4Satchel               web  c1mx
+/ 1 SkinShieldSunScreenLaundryClay?   uiNt
+/ 1 Poncho Tarp
+/ 4 WaterProofPaper(TeraSlate)
+/ 6 Safety Glasses + SiO2 + Rope      c:Nx
+/ 6 Puncture Resistant Gloves         c:mx
+
+
+* faas
+{ 3 (Soft)BristleToothbrush mkt  phr  ,1nt
+/* 4 Earbuds                           u1nt
+/* 3 Sillcock Water               hrd  u1Nv
+/* 7 AC parts                     sto  cIrt
+/* 4 LG G5 screen protector
+/* 4 Mic & Earbuds Splitter TRRS       u1mx
+} 3 Tooth Flosser           mkt  phr  ,u1nt
+/ Python Master locks                 cimT
+- ^measure this! 2ndLock?
+/ 7 AC parts                     sto  cIrt
+} 4 Sharpies                 odp $tr  u1Mt
+} Bags                  $tr groc trh  u:mv
+/ extension cord             swp hrd  ,iNx
+/ 4 DroneCamFeed    pwn swp used web  ,1MT
+/ 46Fire Indep                   web  ,inx
+/ 6 2pt.EpoxyLrg            ??? webe  ,1mx
+/ 2 Zeer pot                     diy  c.mT
+/ 1 LazySuzan(Human)     antique trh  ,imx
+/ 73BucketLid                    trh  ,irt
+- ^measure this! 2ndLock?
+/ 6 more screws and nails        hrd ,,irv
+/ 6 Jigsaw                       hrd ,,.mX
+/ 6 Dremel                       hrd ,,imx
+/ 6 Clamps                       hrd ,,irv
+/ 7 1x2 Lumber                   hrd ,,irx
+/ 1 Electric Blanket        wmt amzn  ,Imx
+/ 61kevlar insoles               web  cimx
+/ 3 Water Bag(5L~)                    ,:nx
+/ 4 gen->Wind turbine                 ,:nx
+/ 3 PortableUltrasonicClean           ,:nx
+} 3 Tooth Flosser           mkt  phr  u1nt
+} 4 Sharpies                 odp $tr  u1Mt
+} Bags                  $tr groc trh  u:mv
+
+//* 16Knee Pads            web usd trh  cimx
+//* 1 https://www.ebay.com/itm/113585737494 etsy.com/listing/844205123//1
+//* 56Skateboard                       CImt
+//* 6 Packing Tape4LIT wmt str mkt $tr UiNt
+//* 61Helmet(D30?Bumpcap?)         web  C1Nx
+//* 3 Spray bottle head                 
+//* 1 Backup Scrunchies            trh  cint
+//* 16Knee Pads            web usd trh  cim 
+//* 7 Security System                 //DEPREC
+//* 4 USB Flashlight                    u:mt
+//{ 3 (Soft)BristleToothbrush mkt phr   ,1nt
+//* 5 Chris's trolley trh   u1nx
+//* 4 Skin markers(Sharpies?)
+//* 4 Blinkist                 sub web  ,imx//fucking rip off  Use cliff notes
+//* 1 Merino thermals          wmt rei  u1Nx
+//6 Upgrade Leathermam           eby  ,1mx
+//* Sun light bulbs                     uiMT
+//* 6 [pwr]buck/boost converter   trh  ,imx
+//* Motion Detector>trt                 cIMx DEPREC
+//* 7 Turret[trt]                       u1MT DEPREC
+//* 7 ExplodingBikeLock  DEPREC AND EVIL AND DUMB
+//* 1 Servus rain boots                
+//* 4 LOCA Glue for LG G5               Uirt
+//* 2 Stove (Rocket C) Again >engi      c1Nx
+// 3 LightSink(5gals?)            diy  c1Nx wtf is this nonsense
+// 56Velcro?                           ,:mt no
+//* 35HandSanitizerBig        peds mkt  ciNt
+//* 5 backpack           swp trh  (c1mx)CIMx
+//* 4 WearablePhone            web diy  c1mx
+//* 1 Merino thermals          wmt rei  u1Nx
+//* 6 Weapon(KnifeSwordChain?)          u1mx
+//* Sun light bulbs                     uiMT
+//* 4 CloudDMS DOCUMENT MANAGEMENT SYSTEM
+//* 1 Servus rain boots                
+//* 4 LOCA Glue for LG G5               Uirt
+//* 2 Lighter
+//* 3 Hankerchief rag w/ string
+//*  4 Earbuds                           u1nt
+//* 3 Sillcock Water               hrd  u1Nv
+// 3 LightSink(5gals?)            diy  c1Nx wtf is this nonsense
+// 56Velcro?                           ,:mt no
+// 1 LazySuzan(Human)     antique trh  ,imx
+// extension cord             swp hrd  ,iNx
+//* 4 LG G5 screen protector
+//* 4 Mic & Earbuds Splitter TRRS       u1mx* 1 https://www.ebay.com/itm/113585737494 etsy.com/listing/844205123//1
+//* Rainsuit                     grg  c1Nv
+//1 tarp                     hrd diy  Cimx
+//6 motor generator[gen]
+//4 wave rectifier[fbr]
+//* 4 motor/generator[gen]              CiNT REFACTORED1
+//* 4 gen,stv->steam turbine            uimT REFACTORED2
+//* 4 sterling engine<gen,stv             T REFACTORED3
+//* 7 DC motor,fBR,Cap,Bat>[gen]   sto  C1rt REFACTORED4
+//* Hand Crank Battery Charger [gen]    c1Nx REFACTORED5
+//* 1 ClothesFancySuit     trh gve tft  ciMx
+//* 6 Super Glue 4 Hurts                C1mx
+//* 6 Duct Tape                         uimt
+//* 61hook for stick                    uiNx
+//Lost - 5 Bike(Big)                 stolen
+//Lost- 5 Bike(tiny)                stolen  c:mx
+//Lost- metal rod
+//Lost- 4 Big Blue Solar Charger     broke
+//Lost* Extra phone 
+//Lost* Spray bottle
+//Lost* Detergent
+//Lost* Extension cord   
+//Lost* Stove            
+//Lost* Clean            
+//Lost* Pot              
+//Lost* Backpack         
+//Lost* Briefcase
+//Lost* spray bottle
+//Lost* fleece thermal long sleeves x 2
+//Lost* stretchy thin jeans
+//Lost* leather jacket
+//Lost* biker gloves
+//Lostlost notebook GOT EM
+//Lostlost painters roller / hook RE STOCKED!!!
+//Lost* Thin workers glove
+//Lost* Electric scooter - Fast easy transport, tires blew out all the time, //Heavy/Sometimes was not accepted by bus drivers
+//LostVR Headset * Could access global vr dev community * Could sharpen/hone social skills * Could stay fit with Beat Saber * Now you need to actually talk to people
+//Lostfound 4 ArmPad (uIm)
+//LostTools
+//Lost  Dremel burner
+//Lost* Can't solder, electronics very precious nowc4IMPOSSIBLE BUY THAT LEAHERMAN NOW!!
+//Old
+ Backpack got stolen, mostly useless stuff got lost: 1 Nitrile gloves, Sunglasses, Glasses Case, Safety glasses(cheap thin), extra masks, Bible, 2, Food Bag(empty), 3, Microfiber cloth, 4 way silcock water key, toothbrush, toothpaste, flosserpicks, bottle of liquid detergent, spray bottle head, water bottle, comb, 4, 4 usb charger, usb c cord, micro usb cord, car chargers, broken battery bank, usb chargers, USB WMD, 5, 6, pens, markers, torch lighter, scissors, scrinchies, chopsticks, 7, trash pouch
+
+
+
+
+ # Lost/Broken/Stolen/Deleted/Depleted/Disposed
+- 5 Backup skateboards
+- 1 Exterior Jacket
+- 4 USB Flashlight             broke
+  brk Safety glasses
+* TRRS Splitter
+* Sharps Container
+//- 5 Bike(Big)                 stolen
+//- 5 Bike(tiny)                stolen  c:mx
+//- metal rod
+//- 4 Big Blue Solar Charger     broke
+//* Extra phone 
+//* Spray bottle
+//* Detergent
+//* Extension cord   
+//* Stove            
+//* Clean            
+//* Pot              
+//* Backpack         
+//* Briefcase
+//* spray bottle
+//* fleece thermal long sleeves x 2
+//* stretchy thin jeans
+//* leather jacket
+//* biker gloves
+//lost notebook GOT EM
+//lost painters roller / hook RE STOCKED!!!
+//* Thin workers glove
+.//* Electric scooter - Fast easy transport, tires blew out all the time, //Heavy/Sometimes was not accepted by bus drivers
+//VR Headset * Could access global vr dev community * Could sharpen/hone social skills * Could stay fit with Beat Saber * Now you need to actually talk to people
+//found 4 ArmPad (uIm)
+//Tools
+//  Dremel burner
+//    * Can't solder, electronics very precious nowc4IMPOSSIBLE BUY THAT LEAHERMAN NOW!!
+
+
+# TODO RECORD
+//New
+//Old
+
+# SHOP TODO
+//New
+//Old
+
+1 ROOM
+2 FOOD
+3 WATER
+4 DATA
+5 GO
+6 TOOL
+7 STORAGE
+
+MAIN
+GO
+ARCHIVE
+BUFFER
+WASTE/t
+f47c13a09bfcad9eb1f81fbf12c04516e0d900e409a74c660f933e69cf93914e16bc9facc7d379a036fe71468bd4504f2a388a0a28a9b727a38ab7843203488c[__b]
+
+###########################################
+###########################################
+###########################################
+###########################################
+###########################################
+__b Rsh different cooking setups    EDU,WEB
+ Street vendors
+ Camping set ups
+  freshoffthegrid.com
+ Different cultures
+__b Pots & Pans & Lids Many sizes       TRH`
+
+
++Cooking equipment
+https://www.ebay.com/sch/i.html?_from=R40&_trksid=p2047675.m570.l1313&_nkw=camping+cook&_sacat=0
++Seems to be too expensive...
++ camping pot holders tm/RG03149 QB01881 CW04708
++ Camping pot?
++ Skillet?
++ Hobo crokpot?
++ Heat exchanging pots
++ itm/314087200015/
++ itm/354025267062/
++ itm/134190364120/
++ itm/275676571123/
++ itm/285148660192/
++ itm/234750267987/
++ itm/175527829326/
++ dp/B000P9F1EQ/
++ tm/YA01706
++  post processing remove coating and condition cookware
++Alcohol stove
++ Fancy Feast
++Fire rope
++Rocket stove?
++ But fucking soot gets everywhere.
++  Needs to fold flat
++ Vargo titanium
++ qwiz firefly
++ firebox g2 nano
++ Lixada firebox
++Butane stove?
++Alcohol ball?
++ Pumice brick
++Hexamime?
++Oil burner?
++Soot?
++Airflow?
++ Windscreen
++ Caldera stove design
++ Vegetable steamer hijack
++Stove complexity.
+###########################################7631eb6734f7d4d197b3ecb8b64fc754438a2ddb42c332ef6c7139fcf7c92f29b030ca36b39ab3bb2f2f5dec7c8fe36f3b5bc27ad469afa75004141365e707d2

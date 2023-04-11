@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-locomotion@0.2.0/dist/aframe-locomotion.umd.min.js"></script>
+    <script src="https://raw.githubusercontent.com/takahirox/aframe-phong-component/master/dist/aframe-phong-component.min.js"></script>
+    <title>Hello World (A-Frame)</title>
+    
+    <script>
+      AFRAME.registerComponent('rig-controls', {
+        init() {
+          this.speed = 5;
+          const keyHandler = (e, d) => this.onKey(e, d);
+          window.addEventListener('keydown', e => keyHandler(e, true));
+          window.addEventListener('keyup', e => keyHandler(e, false));
+        },
+        remove() {
+          window.removeEventListener('keydown', this.onKeyDown);
+          window.removeEventListener('keyup', this.onKeyUp);
+        },
+        onKey(event, isDown) {
+          if (['q', 'Q'].includes(event.key)) this.moveDown = isDown;
+          if (['e', 'E'].includes(event.key)) this.moveUp = isDown;
+        },
+        tick(time, delta) {
+          const rig = document.querySelector('#rig');
+          if (this.moveUp) rig.object3D.position.y += this.speed * delta / 1000;
+          if (this.moveDown) rig.object3D.position.y -= this.speed * delta / 1000;
+        }
+      });
+    </script>
+    <script>
+      AFRAME.registerComponent("skewed-cone", {
+        init: function () {
+          const geometry = new THREE.ConeGeometry(-0.1, 0.15, 3);
+          geometry.applyMatrix4(new THREE.Matrix4().makeShear(0,0,0,-1, 0, 0));
+          this.el.setObject3D("mesh", new THREE.Mesh(geometry));
+        },
+        remove: function () {
+          this.el.removeObject3D("mesh");
+        },
+      });
+      // Add the randomQuaternion function
+      function randomQuaternion() {
+        let u1 = Math.random();
+        let u2 = Math.random();
+        let u3 = Math.random();
+
+        let sqrt1 = Math.sqrt(1 - u1);
+        let sqrt2 = Math.sqrt(u1);
+
+        let x = Math.sqrt(u2) * Math.sin(2 * Math.PI * u3);
+        let y = Math.sqrt(u2) * Math.cos(2 * Math.PI * u3);
+        let z = sqrt1 * Math.sin(2 * Math.PI * u1);
+        let w = sqrt1 * Math.cos(2 * Math.PI * u1);
+
+        return new THREE.Quaternion(x, y, z, w);
+      }
+      //function randomQuaternion2() {
+      //  function generateNormalPairs() {
+      //    const R = Math.sqrt(-2.0 * Math.log(Math.random()));
+      //const theta = 2.0 * Math.PI * Math.random();
+      //    return [R * Math.cos(theta), R * Math.sin(theta)];
+      //  }
+      //  const [n1, n2, n3, n4] = [...generateNormalPairs(), ...generateNormalPairs()];
+      //  const norm = Math.sqrt(n1 * n1 + n2 * n2 + n3 * n3 + n4 * n4);
+      //  return new THREE.Quaternion(n1 / norm, n2 / norm, n3 / norm, n4 / norm);
+      //}
+
+
+      // Create a function to generate and add skewed cones with random rotations
+      function generateRandomCones(numCones) {
+        const scene = document.querySelector("a-scene");
+
+        for (let i = 0; i < numCones; i++) {
+          const cone = document.createElement("a-entity");
+          cone.setAttribute("skewed-cone", "");
+          cone.setAttribute("material", "shader:phong; reflectivity: 0.5; shininess: 3;");
+
+          const position = {
+            x: Math.random() * 5 * 0,
+            y: Math.random() * 5 * 0 + 0.5,
+            z: Math.random() * 5 * 0 - 0.5
+          };
+          cone.setAttribute("position", `${position.x} ${position.y} ${position.z}`);
+
+          const quaternion = randomQuaternion();
+          const rotation = new THREE.Euler().setFromQuaternion(quaternion, "XYZ");
+          rotation.x = THREE.MathUtils.radToDeg(rotation.x);
+          rotation.y = THREE.MathUtils.radToDeg(rotation.y);
+          rotation.z = THREE.MathUtils.radToDeg(rotation.z);
+          cone.setAttribute("rotation", `${rotation.x} ${rotation.y} ${rotation.z}`);
+
+          scene.appendChild(cone);
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <a-scene page-controls>
+      <a-sky color="blue"></a-sky>
+      <a-plane rotation="-90 0 0" color="green" height="5" width="5"></a-plane>
+      <a-entity
+        position="0 1 -3"
+        skewed-cone
+        material="shader:phong; reflectivity: 0.5; shininess: 3;"
+      ></a-entity>
+      <a-entity id="rig" rig-controls>
+        <a-camera id="camera" camera look-controls wasd-controls="acceleration: 20">
+          <a-entity geometry="primitive: plane; height: 0.2; width: 0.2" position="1 1 -1" material="color: gray; opacity: 0.5"></a-entity>
+          <a-entity thumbstick-controls></a-entity>
+        </a-camera>
+        <a-entity
+        oculus-touch-controls="hand: left"
+            smooth-locomotion="target: #rig; reference: #camera">
+        </a-entity>
+        <a-entity
+        oculus-touch-controls="hand: right"
+            snap-turn="target: #rig; reference: #camera">
+        </a-entity>
+      </a-entity>
+    </a-scene>
+    <script>
+      // Call the function to add the skewed cones
+      generateRandomCones(1000);
+    </script>
+  </body>
+</html>

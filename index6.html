@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-locomotion@0.2.0/dist/aframe-locomotion.umd.min.js"></script>
+    <script src="https://cdn.rawgit.com/mayognaise/aframe-html-shader/v1.2.0/dist/aframe-html-shader.min.js"></script>
+    <title>Hello World (A-Frame)</title>
+  </head>
+  <body>
+    <script>AFRAME.registerComponent('page-controls', {
+      init: function () {
+        this.speed = 5;
+        this.moveDown = false;
+        this.moveUp = false;
+    
+        this.onBButtonDown = this.onBButtonDown.bind(this);
+        this.onBButtonUp = this.onBButtonUp.bind(this);
+        this.onAButtonDown = this.onAButtonDown.bind(this);
+        this.onAButtonUp = this.onAButtonUp.bind(this);
+        this.onKeyDown = this.onKeyDown.bind(this);
+        this.onKeyUp = this.onKeyUp.bind(this);
+    
+        this.el.addEventListener('bbuttondown', this.onBButtonDown);
+        this.el.addEventListener('bbuttonup', this.onBButtonUp);
+        this.el.addEventListener('abuttondown', this.onAButtonDown);
+        this.el.addEventListener('abuttonup', this.onAButtonUp);
+        window.addEventListener('keydown', this.onKeyDown);
+        window.addEventListener('keyup', this.onKeyUp);
+      },
+    
+      remove: function () {
+        this.el.removeEventListener('bbuttondown', this.onBButtonDown);
+        this.el.removeEventListener('bbuttonup', this.onBButtonUp);
+        this.el.removeEventListener('abuttondown', this.onAButtonDown);
+        this.el.removeEventListener('abuttonup', this.onAButtonUp);
+        window.removeEventListener('keydown', this.onKeyDown);
+        window.removeEventListener('keyup', this.onKeyUp);
+      },
+    
+      onBButtonDown: function () { this.moveDown = true; },
+      onBButtonUp: function () { this.moveDown = false; },
+      onAButtonDown: function () { this.moveUp = true; },
+      onAButtonUp: function () { this.moveUp = false; },
+    
+      onKeyDown: function (event) {
+        if (event.keyCode === 49) this.moveDown = true;
+        if (event.keyCode === 50) this.moveUp = true;
+      },
+    
+      onKeyUp: function (event) {
+        if (event.keyCode === 49) this.moveDown = false;
+        if (event.keyCode === 50) this.moveUp = false;
+      },
+    
+      tick: function (time, delta) {
+        var timeDelta = delta / 1000;
+        this.move(timeDelta);
+      },
+    
+      move: function (delta) {
+        const monospaceBoxes = document.querySelectorAll('[id^="monospacebox-"]');
+        monospaceBoxes.forEach((box) => {
+          const position = box.object3D.position;
+          if (this.moveUp) {
+            position.y += this.speed * delta;
+          }
+          if (this.moveDown) {
+            position.y -= this.speed * delta;
+          }
+        });
+      }
+    });
+    </script>
+    <a-scene page-controls>
+      <a-sky color="blue"></a-sky>
+      <a-plane rotation="-90 0 0" color="green" height="5" width="5"></a-plane>
+      <a-box color="red" position="-0.5 0.2 -1" scale="0.3 0.3 0.3" animation="property: rotation; to: 0 360 0; loop: true; dur: 2000"></a-box>
+      <a-box color="red" position="1 1 -1" scale="0.3 0.3 0.3" animation="property: rotation; to: 0 360 0; loop: true; dur: 2000"></a-box>
+      <a-entity position="-1 0.5 -3">
+        <a-box color="red" scale="0.5 0.5 0.5" animation="property: rotation; to: 0 360 0; loop: true; dur: 2000"></a-box>
+        <a-entity line="start: -0.25 -0.25 -0.25; end: 0.25 -0.25 -0.25; color: black"></a-entity>
+        <a-entity line="start: 0.25 -0.25 -0.25; end: 0.25 0.25 -0.25; color: black"></a-entity>
+        <a-entity line="start: 0.25 0.25 -0.25; end: -0.25 0.25 -0.25; color: black"></a-entity>
+      </a-entity>
+      <a-entity id="rig">
+        <a-camera id="camera" camera look-controls wasd-controls="acceleration: 300">
+          <a-entity geometry="primitive: plane; height: 0.2; width: 0.2" position="0 0 -1" material="color: gray; opacity: 0.5"></a-entity>
+          <a-entity thumbstick-controls></a-entity>
+        </a-camera>
+        <a-entity
+          oculus-touch-controls="hand: left"
+          smooth-locomotion="target: #rig; reference: #camera">
+        </a-entity>
+        <a-entity
+          oculus-touch-controls="hand: right"
+          snap-turn="target: #rig; reference: #camera">
+        </a-entity>
+      </a-entity>
+    </a-scene>
+    <script>
+        fetch('./text.txt')
+          .then(response => response.text())
+          .then(text => {
+            const maxSectionLength = 10000;
+            const lines = text.split('\n');
+            const sections = [];
+            let currentSection = '';
+            lines.forEach(line => {
+                if (currentSection.length + line.length + 1 <= maxSectionLength) {
+                currentSection += line + '\n';
+                } else {
+                sections.push(currentSection);
+                currentSection = line + '\n';
+                }
+            });
+            if (currentSection !== '') {
+                sections.push(currentSection);
+            }
+            let numSections=sections.length;
+            const boxHeight = 2.5;
+            const boxWidth = 3;
+              for (let i = 0; i < numSections; i++) {
+                const htmlContent = document.createElement('div');
+                htmlContent.style.width = '1024px';
+                htmlContent.style.height = 'auto';
+                htmlContent.style.fontFamily = 'Source Code Pro, monospace';
+                htmlContent.style.fontSize = '20px';
+                htmlContent.style.color = 'white';
+                htmlContent.style.backgroundColor = '#333333';
+                htmlContent.style.padding = '10px';
+                htmlContent.style.whiteSpace = 'pre-wrap';
+                htmlContent.innerHTML = sections[i];
+    
+                const htmlTexture = new THREE.CanvasTexture(htmlContent);
+                const monospaceBox = document.createElement('a-entity');
+                monospaceBox.setAttribute('geometry', `primitive: plane; width: ${boxWidth}`);
+                monospaceBox.setAttribute('material', 'shader: html; transparent: false; color: white;');
+                monospaceBox.getObject3D('mesh').material.map = htmlTexture;
+                monospaceBox.setAttribute('position', `${i * boxWidth} 0 -3`);
+                monospaceBox.setAttribute('id', `monospacebox-${i}`);
+                document.querySelector('a-scene').appendChild(monospaceBox);
+              }
+            });
+      </script>
+    </body>
+  </html>
+  

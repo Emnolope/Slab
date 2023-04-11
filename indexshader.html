@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-assets>
+        <img id="msdf-atlas" src="IBMPlexMono-Medium.0.png" crossorigin="anonymous" />
+        <script id="msdf-descriptor" type="application/json" src="IBMPlexMono-Medium-msdf.json"></script>
+      </a-assets>
+      <a-entity position="0 1.6 -2" msdf-text="text: Hello, WebXR!;"></a-entity>
+      <a-camera></a-camera>
+    </a-scene>
+
+    <script>
+      AFRAME.registerShader("msdf", {
+        schema: {
+          // Add properties as required for your use case
+          color: { type: "color", default: "white" },
+          opacity: { type: "number", default: 1 },
+          text: { type: "string", default: "" },
+        },
+
+        init: function () {
+          // Load MSDF data
+          const msdfAtlas = this.el.sceneEl.systems["a-assets"].getAsset("msdf-atlas");
+          const msdfDescriptor = JSON.parse(
+            this.el.sceneEl.systems["a-assets"].getAsset("msdf-descriptor").data
+          );
+
+          // Set up the material and geometry for the text
+          this.material = new THREE.MeshBasicMaterial({
+            map: msdfAtlas,
+            transparent: true,
+            side: THREE.DoubleSide,
+            depthWrite: false,
+            depthTest: false,
+          });
+
+          this.geometry = new THREE.BufferGeometry(); // Replace with your own geometry generation logic based on MSDF descriptor
+
+          // Create the mesh and add it to the A-Frame entity
+          this.mesh = new THREE.Mesh(this.geometry, this.material);
+          this.el.setObject3D("mesh", this.mesh);
+        },
+
+        update: function (oldData) {
+          // Update properties, geometry, or other attributes based on the changes in the data
+          if (oldData.text !== this.data.text) {
+            // Update geometry based on the new text
+          }
+
+          if (oldData.color !== this.data.color) {
+            this.material.color.set(this.data.color);
+          }
+
+          if (oldData.opacity !== this.data.opacity) {
+            this.material.opacity = this.data.opacity;
+          }
+        },
+
+        remove: function () {
+          // Clean up resources when the component is removed
+          this.el.removeObject3D("mesh");
+          this.geometry.dispose();
+          this.material.dispose();
+        },
+      });
+
+      AFRAME.registerComponent("msdf-text", {
+        schema: {
+          text: { type: "string", default: "" },
+        },
+
+        init: function () {
+          this.el.setAttribute("material", "shader: msdf; text: " + this.data.text);
+        },
+
+        update: function (oldData) {
+          if (oldData.text !== this.data.text) {
+            this.el.setAttribute("material", "text", this.data.text);
+          }
+        },
+      });
+    </script>
+  </body>
+</html>

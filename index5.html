@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-locomotion@0.2.0/dist/aframe-locomotion.umd.min.js"></script>
+    <title>Hello World (A-Frame)</title>
+  </head>
+  <body>
+    <a-scene>
+      <a-sky color="blue"></a-sky>
+      <a-plane rotation="-90 0 0" color="green" height="5" width="5"></a-plane>
+      <a-box color="red" position="-0.5 0.2 -1" scale="0.3 0.3 0.3" animation="property: rotation; to: 0 360 0; loop: true; dur: 2000"></a-box>
+      <a-box color="red" position="1 1 -1" scale="0.3 0.3 0.3" animation="property: rotation; to: 0 360 0; loop: true; dur: 2000"></a-box>
+      <a-entity position="-1 0.5 -3">
+        <a-box color="red" scale="0.5 0.5 0.5" animation="property: rotation; to: 0 360 0; loop: true; dur: 2000"></a-box>
+        <a-entity line="start: -0.25 -0.25 -0.25; end: 0.25 -0.25 -0.25; color: black"></a-entity>
+        <a-entity line="start: 0.25 -0.25 -0.25; end: 0.25 0.25 -0.25; color: black"></a-entity>
+        <a-entity line="start: 0.25 0.25 -0.25; end: -0.25 0.25 -0.25; color: black"></a-entity>
+      </a-entity>
+      <a-entity id="rig">
+        <a-camera id="camera" camera look-controls wasd-controls="acceleration: 300">
+          <a-entity geometry="primitive: plane; height: 0.2; width: 0.2" position="0 0 -1" material="color: gray; opacity: 0.5"></a-entity>
+          <a-entity thumbstick-controls></a-entity>
+        </a-camera>
+        <a-entity
+        oculus-touch-controls="hand: left"
+            smooth-locomotion="target: #rig; reference: #camera">
+        </a-entity>
+        <a-entity
+        oculus-touch-controls="hand: right"
+            snap-turn="target: #rig; reference: #camera">
+        </a-entity>
+      </a-entity>
+    </a-scene>
+    <script>
+      fetch('./textshort.txt')
+        .then(response => response.text())
+        .then(text => {
+          const numSections = 3;
+          const lines = text.split('\n');
+          const sectionLength = Math.floor(lines.length / numSections);
+          const sections = [];
+          for (let i = 0; i < numSections - 1; i++) {
+            sections.push(lines.splice(0, sectionLength).join('\n'));
+          }
+          sections.push(lines.join('\n'));
+          const boxHeight = 2.5;
+          const boxWidth = 3;
+          for (let i = 0; i < numSections; i++) {
+            const monospaceBox = document.createElement('a-entity');
+            monospaceBox.setAttribute('geometry', `primitive: plane; width: ${boxWidth}`);
+            monospaceBox.setAttribute('material', 'color: #333333');
+            monospaceBox.setAttribute('text', `color: white; anchor: center; font: sourcecodepro; wrapCount: 85; value: ${sections[i]}`);
+            monospaceBox.setAttribute('position', `${i*boxWidth} 0 -3`);
+            monospaceBox.setAttribute('id', `monospacebox-${i}`);
+            document.querySelector('a-scene').appendChild(monospaceBox);
+          }
+        });
+    </script>
+  </body>
+</html>

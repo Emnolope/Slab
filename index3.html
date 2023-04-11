@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+    <title>Large Text Display (A-Frame)</title>
+  </head>
+  <body>
+    <a-scene>
+      <a-assets>
+        <a-asset-item id="textFont" src="https://cdn.aframe.io/fonts/SourceCodePro-Regular.fnt"></a-asset-item>
+      </a-assets>
+      
+      <a-sky color="blue"></a-sky>
+      <a-plane rotation="-90 0 0" color="green" height="5" width="5"></a-plane>
+      
+      <a-entity id="textGroup" position="0 1 -5">
+        <a-entity
+          class="textPlane"
+          geometry="primitive: plane; width: 7"
+          material="color: #333333"
+          text="color: white; anchor: center; font: sourcecodepro; wrapCount: 85; yOffset: 1">
+        </a-entity>
+      </a-entity>
+              
+      <a-entity
+        id="cameraRig"
+        movement-controls
+        position="0 1.6 0">
+        <a-entity id=camera look-controls></a-entity>
+        <a-entity oculus-touch-controls="hand: left"></a-entity>
+        <a-entity oculus-touch-controls="hand: right"></a-entity>
+      </a-entity>
+    </a-scene>
+
+    <script>
+      function splitTextIntoChunks(text, chunksCount) {
+        const lines = text.split('\n');
+        const linesPerChunk = Math.ceil(lines.length / chunksCount);
+        const chunks = [];
+    
+        for (let i = 0; i < chunksCount; i++) {
+          const chunkStart = i * linesPerChunk;
+          const chunkEnd = chunkStart + linesPerChunk;
+          const chunk = lines.slice(chunkStart, chunkEnd).join('\n');
+          chunks.push(chunk);
+        }
+    
+        return chunks;
+      }
+    
+      const chunksCount = 10;
+      const yOffset = -1.5;
+    
+      fetch('./text.txt')
+        .then(response => response.text())
+        .then(text => {
+          const textGroup = document.getElementById('textGroup');
+          const textChunks = splitTextIntoChunks(text, chunksCount);
+    
+          textChunks.forEach((chunk, index) => {
+            const plane = document.createElement('a-entity');
+            plane.setAttribute('class', 'textPlane');
+            plane.setAttribute('geometry', 'primitive: plane; width: 7');
+            plane.setAttribute('material', 'color: #333333');
+            plane.setAttribute('position', `0 ${yOffset * index} 0`);
+            plane.setAttribute('text', {
+              color: 'white',
+              anchor: 'center',
+              font: 'sourcecodepro',
+              wrapCount: 85,
+              value: chunk
+            });
+    
+            textGroup.appendChild(plane);
+          });
+        });
+    </script>
+  </body>
+</html>

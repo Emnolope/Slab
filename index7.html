@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>A-Frame Text on Texture Example</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-assets>
+        <a-asset-item id="myfont" src="https://cdn.jsdelivr.net/npm/three/examples/fonts/source-code-pro.json"></a-asset-item>
+      </a-assets>
+      <a-entity
+        geometry="primitive: plane; width: 4; height: 4"
+        material="shader: text-on-texture; font: #myfont; text: Hello, World!">
+      </a-entity>
+    </a-scene>
+    <!-- Custom shader script -->
+    <script type="text/javascript">
+      AFRAME.registerShader('text-on-texture', {
+        schema: {
+          font: {type: 'map'},
+          text: {type: 'string'},
+          color: {type: 'color', is: 'uniform'},
+        },
+        vertexShader: `
+          varying vec2 vUv;
+          void main() {
+            vUv = uv;
+            gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
+          }
+        `,
+        fragmentShader: `
+          uniform sampler2D font;
+          uniform vec3 color;
+          varying vec2 vUv;
+          void main() {
+            vec4 texel = texture2D(font, vUv);
+            vec3 text = vec3(1.0 - texel.r);
+            gl_FragColor = vec4(color * text, 1.0);
+          }
+        `
+      });
+    </script>
+  </body>
+</html>

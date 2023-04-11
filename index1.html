@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-html-shader@1.3.0/dist/aframe-html-shader.min.js"></script>
+    <title>Hello World (A-Frame)</title>
+  </head>
+  <body>
+    <script>
+      AFRAME.registerComponent('update-repeat', {
+        dependencies: ['material'], 
+
+        init: function () {
+          var texture = this.el.components.material.material.map;
+          texture.repeat = new THREE.Vector2(-1, 1);
+          texture.needsUpdate = true;
+        }
+      });
+    </script>
+    <div id="texture" style="width: 100%; height: 100%; position: fixed; left: 0; top: 0; z-index: -1; overflow: hidden">
+        <p style="position: relative; top: 20px; font-size: 72px">HELLO HELLO</p>
+        <p style="position: relative; top: 20px; font-size: 48px">curvy text</p>
+      </div>
+    <a-scene>
+        <a-entity geometry="primitive: cylinder; radius: 2; segmentsRadial: 48; thetaLength: -160; openEnded: true"       
+                  material="shader: html; target: #texture; side: double; width: 500; height: 300; transparent: true" update-repeat position="0 0 -4" rotation="0 -90 0"></a-entity>
+        <a-sky color="#FAFAFA"></a-sky>
+    </a-scene>
+
+  </body>
+</html>

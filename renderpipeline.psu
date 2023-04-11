@@ -1,0 +1,44 @@
+Here's my pseudocode:
+
+This is a fairly aggressive implementation of level of detail.
+There are 1000 rectangles arrangled randomly in 3d space.
+They will be placed into 4 sets based on what zone they are in.
+The categories are Good, Okay, Bad, None.
+Zones
+  What is in the Bad zone?
+    The bad zone is a cone or frustrum that represents what the camera can see.
+    All the objects that are even in a bit in the bad zone are in the bad set.
+  Function: How to tell if an elipsoid and a rectangle intersect?
+  Function arguments: Elipsoid scaling factors, ex, ey, ez. The rectangle, R
+    scale the rectangle and the sphere by inverse ex, ey, ez factor. Making the scaled sphere elipsoid back to unit sphere.
+    determine if any part of the rectangle is less than 1 radius from origin.
+      transform with rotation and translation the sphere to rectangle space.
+      This now can be solved like a 2d problem.
+      Determine if the sphere (now a circle) is colliding with the rectangle.
+        Use the "separating axis theorem" algorithm to determine this.
+  What is in the Okay zone?
+    The okay zone is inside of the bad zone.
+    The okay zone is a sphere which is a sphere that is scaled by ox, oy, oz scaling factor.
+    All the objects that are even a bit in the okay zone are in the okay set.
+    All the objects that are even a bit in the good zone are in the good set. 
+      Rectangles:
+        Function: How to tell if an elipsoid and a rectangle intersect?
+          ox, oy, oz -> ex, ey, ez.
+  What is in the Good zone?
+    The good zone is inside of the okay zone.
+    The good zone is a elipsoid which is a sphere that is scaled by gx, gy, gz scaling factor.
+    All the objects that are even a bit in the good zone are in the good set.
+      Rectangles:
+        Function: How to tell if an elipsoid and a rectangle intersect?
+          gx, gy, gz -> ex, ey, ez.
+  What is in the None zone?
+    The None zone every where else not in the good zone, the okay zone, or the bad zone.
+    All the objects that are not in any of the the good, okay, or bad zone are in the none set.
+Sets
+  Now all the rectangles should be in the set None, Bad, Okay, Good.
+  Good
+    Text is rendered with MSDF font. Each letter is it's own rectangle.
+  Okay
+    Text is rendered as a semi static image capture of text, barely readable. Each rectange has it's own image.
+  Bad
+    Text is rendered as an image capture of zoomed out text. Each rectangle takes a section of a bigger image. Letters are represented by single pixels

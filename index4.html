@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-locomotion@0.2.0/dist/aframe-locomotion.umd.min.js"></script>
+    <title>Hello World (A-Frame)</title>
+  </head>
+  <body>
+    <script>/* global AFRAME, THREE */
+      AFRAME.registerComponent('page-controls', {
+        init: function () {
+          var self = this;
+          var el = this.el;
+          var pageEl = this.pageEl = document.getElementById('monospacebox');
+          el.addEventListener('bbuttondown', function () { self.moveDown = true; });
+          el.addEventListener('ybuttondown', function () { self.moveDown = true; });
+          el.addEventListener('bbuttonup', function () { self.moveDown = false; });
+          el.addEventListener('ybuttonup', function () { self.moveDown = false; });
+          el.addEventListener('abuttondown', function () { self.moveUp = true; });
+          el.addEventListener('xbuttondown', function () { self.moveUp = true; });
+          el.addEventListener('abuttonup', function () { self.moveUp = false; });
+          el.addEventListener('xbuttonup', function () { self.moveUp = false; });
+        },
+        tick: function (time, delta) {
+          var timeDelta = delta / 1000;
+          this.move(timeDelta);
+        },
+        move: function (delta) {
+          var position = this.pageEl.object3D.position;
+          if (this.moveUp) {
+            position.y += 2.5 * delta;
+          }
+      
+          if (this.moveDown) {
+            position.y -= 2.5 * delta;
+          }
+        }
+      });
+    </script>
+    <a-scene>
+      <a-sky color="blue"></a-sky>
+      <a-plane rotation="-90 0 0" color="green" height="5" width="5"></a-plane>
+      <a-box color="red" position="-0.5 0.2 -1" scale="0.3 0.3 0.3" animation="property: rotation; to: 0 360 0; loop: true; dur: 2000"></a-box>
+      <a-box color="red" position="1 1 -1" scale="0.3 0.3 0.3" animation="property: rotation; to: 0 360 0; loop: true; dur: 2000"></a-box>
+      <a-entity position="-1 0.5 -3">
+        <a-box color="red" scale="0.5 0.5 0.5" animation="property: rotation; to: 0 360 0; loop: true; dur: 2000"></a-box>
+        <a-entity line="start: -0.25 -0.25 -0.25; end: 0.25 -0.25 -0.25; color: black"></a-entity>
+        <a-entity line="start: 0.25 -0.25 -0.25; end: 0.25 0.25 -0.25; color: black"></a-entity>
+        <a-entity line="start: 0.25 0.25 -0.25; end: -0.25 0.25 -0.25; color: black"></a-entity>
+      </a-entity>
+      <a-entity
+        id='monospacebox'
+        position="0 2 -5"
+        geometry="primitive: plane; width: 7"
+        material="color: #333333"
+        text="color: white; anchor: center; font: sourcecodepro; wrapCount: 85;
+              value: text"></a-entity>   
+      <a-entity id="rig">
+        <a-camera id="camera" camera look-controls wasd-controls="acceleration: 300">
+          <a-entity geometry="primitive: plane; height: 0.2; width: 0.2" position="0 0 -1" material="color: gray; opacity: 0.5"></a-entity>
+          <a-entity thumbstick-controls></a-entity>
+        </a-camera>
+        <a-entity
+        oculus-touch-controls="hand: left"
+            smooth-locomotion="target: #rig; reference: #camera">
+        </a-entity>
+        <a-entity
+        oculus-touch-controls="hand: right"
+            snap-turn="target: #rig; reference: #camera">
+        </a-entity>
+      </a-entity>
+    </a-scene>
+
+    <script>
+      fetch('./text.txt')
+        .then(response => response.text())
+        .then(text => {
+          const monospaceBox = document.getElementById('monospacebox');
+          monospaceBox.setAttribute('text', {value: text});
+        });
+    </script>
+  </body>
+</html>

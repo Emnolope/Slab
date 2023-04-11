@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+    <title>Hello World (A-Frame)</title>
+  </head>
+  <body>
+    <a-scene>
+      <a-plane rotation="-90 0 0" color="green" height="5" width="5"></a-plane>
+      <a-sky color="blue"></a-sky>
+        <a-box color="red" position="-0.5 0.2 -1" scale="0.3 0.3 0.3" animation="property: rotation; to: 0 360 0; loop: true; dur: 2000"></a-box>
+        <a-box color="red" position="1 1 -1" scale="0.3 0.3 0.3" animation="property: rotation; to: 0 360 0; loop: true; dur: 2000"></a-box>
+        <a-entity position="-1 0.5 -3">
+          <a-box color="red" scale="0.5 0.5 0.5" animation="property: rotation; to: 0 360 0; loop: true; dur: 2000"></a-box>
+          <a-entity line="color: black; path: -0.5 -0.5 0, 0.5 -0.5 0, 0.5 0.5 0, -0.5 0.5 0, -0.5 -0.5 0"></a-entity>
+        </a-entity>
+        
+      <!-- Add a box to the scene -->
+      <a-box position="0 1 -3" scale="0.3 0.3 0.3" color="#4CC3D9"></a-box>
+
+      <!-- Add text to the box -->
+
+    <a-text id="my-text" position="0 1 -1" rotation="0 90 0" color="#000" align="center" width="3"></a-text>
+    <a-assets>
+        <a-asset-item id="monospace-font" src="monospace.json"></a-asset-item>
+      </a-assets>
+      <a-font id="monospace" font="url(monospace.ttf)" json="#monospace-font"></a-font>
+      <a-text value="Hello, worlld!" color="#FFF" position="0 1 -1" scale="3 3 3" width="3"></a-text>
+      <a-text value="aaahhh"
+        font="./IBMPlexMono-Medium-msdf.json"
+        color="#33C3F0"
+        position="0 1 -1" scale="3 3 3" width="3"
+        negate="false">
+      </a-text>
+      <a-entity position="0 4 -30" geometry="primitive: plane; width: 5; height: auto" material="color: #333333" text="color: white; align: center; font: https://cdn.aframe.io/fonts/DejaVu-sdf.fnt;
+              value: a-plane align:center (anchor:align) DejaVu width 8 1234567890123456789012345678901234567890">
+      </a-entity>
+      <a-entity position="0 6 -4" text="color: white; align: right; width: 5; font: monoid;
+              value: align='right' (default anchor) Monoid 123456789012345678901234567890123456789012345678901234567890"></a-entity>
+      <a-entity position="0 2 -30" geometry="primitive: plane; width: 5" material="color: #333333" text="color: white; anchor: center; font: sourcecodepro;
+              value: anchor='center' (default align) SourceCodePro 123456789012345678901234567890123456789012345678901234567890"></a-entity>
+    </a-scene>
+    
+  
+    <script>
+      fetch('./text.txt')
+        .then(response => response.text())
+        .then(text => {
+          // Set the value attribute of the <a-text> entity
+          const entity = document.getElementById('my-text');
+          entity.setAttribute('value', text);
+        });
+    </script>
+  </body>
+</html>
