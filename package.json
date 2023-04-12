@@ -23,6 +23,11 @@
   },
   "homepage": "https://github.com/Emnolope/Slab#readme",
   "dependencies": {
+    "express": "^4.18.2",
     "three-bmfont-text": "^3.0.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.29.1",
+    "nodemon": "^2.0.22"
   }
 }
