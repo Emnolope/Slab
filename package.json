@@ -27,6 +27,8 @@
   "dependencies": {
     "aframe": "^1.4.1",
     "aframe-locomotion": "^0.2.0",
+    "babel": "^6.23.0",
+    "babelify": "^10.0.0",
     "express": "^4.18.2",
     "three": "^0.151.3",
     "three-bmfont-text": "^3.0.1"

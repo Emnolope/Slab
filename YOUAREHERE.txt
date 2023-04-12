@@ -1,0 +1,1 @@
+You just got the node stuff to work on the server, the old code is still in ./old/index.html
