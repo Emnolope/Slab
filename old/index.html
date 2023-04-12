@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-locomotion@0.2.0/dist/aframe-locomotion.umd.min.js"></script>
+    <title>Hello World (A-Frame)</title>
+  </head>
+  <body>
+    <script>
+      AFRAME.registerComponent('rig-controls', {
+        init() {
+          this.speed = 5;
+          const keyHandler = (e, d) => this.onKey(e, d);
+          window.addEventListener('keydown', e => keyHandler(e, true));
+          window.addEventListener('keyup', e => keyHandler(e, false));
+        },
+        remove() {
+          window.removeEventListener('keydown', this.onKeyDown);
+          window.removeEventListener('keyup', this.onKeyUp);
+        },
+        onKey(event, isDown) {
+          if (['q', 'Q'].includes(event.key)) this.moveDown = isDown;
+          if (['e', 'E'].includes(event.key)) this.moveUp = isDown;
+        },
+        tick(time, delta) {
+          const rig = document.querySelector('#rig');
+          if (this.moveUp) rig.object3D.position.y += this.speed * delta / 1000;
+          if (this.moveDown) rig.object3D.position.y -= this.speed * delta / 1000;
+        }
+      });
+    </script>
+    <a-scene page-controls>
+      <a-sky color="blue"></a-sky>
+      <a-plane rotation="-90 0 0" color="green" height="5" width="5"></a-plane>
+      <a-box color="red" position="-0.5 0.2 -1" scale="0.3 0.3 0.3" animation="property: rotation; to: 0 360 0; loop: true; dur: 2000"></a-box>
+      <a-box color="red" position="1 1 -1" scale="0.3 0.3 0.3" animation="property: rotation; to: 0 360 0; loop: true; dur: 2000"></a-box>
+      <a-entity position="-1 0.5 -3">
+        <a-box color="red" scale="0.5 0.5 0.5" animation="property: rotation; to: 0 360 0; loop: true; dur: 2000"></a-box>
+        <a-entity line="start: -0.25 -0.25 -0.25; end: 0.25 -0.25 -0.25; color: black"></a-entity>
+        <a-entity line="start: 0.25 -0.25 -0.25; end: 0.25 0.25 -0.25; color: black"></a-entity>
+        <a-entity line="start: 0.25 0.25 -0.25; end: -0.25 0.25 -0.25; color: black"></a-entity>
+      </a-entity>
+      <a-entity id="rig" rig-controls>
+        <a-camera id="camera" camera look-controls wasd-controls="acceleration: 20">
+          <a-entity geometry="primitive: plane; height: 0.2; width: 0.2" position="1 1 -1" material="color: gray; opacity: 0.5"></a-entity>
+          <a-entity thumbstick-controls></a-entity>
+        </a-camera>
+        <a-entity
+        oculus-touch-controls="hand: left"
+            smooth-locomotion="target: #rig; reference: #camera">
+        </a-entity>
+        <a-entity
+        oculus-touch-controls="hand: right"
+            snap-turn="target: #rig; reference: #camera">
+        </a-entity>
+      </a-entity>
+    </a-scene>
+  </body>
+</html>
