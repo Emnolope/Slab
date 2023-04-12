@@ -1,0 +1,28 @@
+{
+  "name": "slab",
+  "version": "1.0.3",
+  "description": "3D text",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emnolope/Slab.git"
+  },
+  "keywords": [
+    "3d",
+    "text",
+    "vr",
+    "words"
+  ],
+  "author": "emnolope",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Emnolope/Slab/issues"
+  },
+  "homepage": "https://github.com/Emnolope/Slab#readme",
+  "dependencies": {
+    "three-bmfont-text": "^3.0.1"
+  }
+}
