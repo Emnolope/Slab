@@ -29,6 +29,7 @@
     "aframe": "^1.4.1",
     "aframe-locomotion": "^0.2.0",
     "array-shuffle": "^1.0.1",
+    "express": "^4.18.2",
     "inherits": "^2.0.1",
     "layout-bmfont-text": "^1.2.0",
     "nice-color-palettes": "^3.0.0",
