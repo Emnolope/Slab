@@ -10,13 +10,13 @@
 
   global.THREE = require('three')
   var createOrbitViewer = require('three-orbit-viewer')(THREE)
-  var createText = require('../')
-  var MSDFShader = require('../msdf')
+  var createText = require('three-bmfont-text')
+  var MSDFShader = require('./msdf')
   
   // load up a 'fnt' and texture
   require('./load')({
-    font: '../fnt/Roboto-msdf.json',
-    image: '../fnt/Roboto-msdf.png'
+    font: './fnt/Roboto-msdf.json',
+    image: './fnt/Roboto-msdf.png'
   }, start)
   
   function start(font, texture) {

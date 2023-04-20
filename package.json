@@ -28,19 +28,28 @@
   "dependencies": {
     "aframe": "^1.4.1",
     "aframe-locomotion": "^0.2.0",
-    "babel": "^6.23.0",
-    "babelify": "^10.0.0",
-    "express": "^4.18.2",
-    "on-finished": "^2.4.1",
-    "three": "^0.151.3",
+    "array-shuffle": "^1.0.1",
+    "inherits": "^2.0.1",
+    "layout-bmfont-text": "^1.2.0",
+    "nice-color-palettes": "^3.0.0",
+    "object-assign": "^4.0.1",
+    "quad-indices": "^2.0.1",
     "three-bmfont-text": "^3.0.1",
-    "three-orbit-viewer": "^69.3.1"
+    "three-buffer-vertex-data": "^1.0.0"
   },
   "devDependencies": {
-    "browser-sync": "^2.29.1",
-    "browserify": "^17.0.0",
-    "budo": "^11.8.4",
-    "nodemon": "^2.0.22",
-    "watchify": "^4.0.0"
+    "bluebird": "^3.7.2",
+    "browserify": "^16.5.1",
+    "budo": "^11.6.3",
+    "glsl-aastep": "^1.0.1",
+    "glsl-noise": "0.0.0",
+    "glslify": "^7.0.0",
+    "load-bmfont": "^1.0.0",
+    "standard": "^14.3.4",
+    "sun-tzu-quotes": "^1.0.0",
+    "three": "^0.118.3",
+    "three-orbit-viewer": "^69.2.9",
+    "three-vignette-background": "^1.0.2",
+    "uglify-js": "^3.10.0"
   }
 }
