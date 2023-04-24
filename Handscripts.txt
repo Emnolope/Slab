@@ -1,1 +1,2 @@
-./node_modules/.bin/budo test/test-3d.js:bundle.js --dir test --live
+/workspaces/Slab/node_modules/.bin/budo test/test-3d.js:bundle.js --dir test --live
+/workspaces/Slab/node_modules/.bin/budo app.js:bundle.js --dir test --live
