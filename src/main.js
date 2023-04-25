@@ -1,17 +1,16 @@
 // src/main.js
-
 // Import dependencies from 'test-3d.js'
 global.THREE = require('three');
 var createText = require('three-bmfont-text');
-var MSDFShader = require('./msdf');
+var MSDFShader = require('three-bmfont-text/shaders/msdf');
 var loadFont = require('load-bmfont');
 
 // Custom A-Frame component that wraps 'test-3d.js'
 AFRAME.registerComponent('text-3d', {
-  init: function() {
+  init: function () {
     // Load font function from 'test-3d.js'
     function load(opt, cb) {
-      loadFont(opt.font, function(err, font) {
+      loadFont(opt.font, function (err, font) {
         if (err) throw err
         const textureLoader = new THREE.TextureLoader();
         textureLoader.load(opt.image, function(tex) {
@@ -19,22 +18,24 @@ AFRAME.registerComponent('text-3d', {
         });
       })
     }
+
     // Start function from 'test-3d.js'
-    function start(font, texture) {
-      var app = createOrbitViewer({
-        clearColor: 'rgb(40, 40, 40)',
-        clearAlpha: 1.0,
-        fov: 55,
-        position: new THREE.Vector3(0, 0, -2)
-      })
-      var maxAni = app.renderer.getMaxAnisotropy()
+    function start(font, texture, scene) {
+      // var app = createOrbitViewer({
+      //   clearColor: 'rgb(40, 40, 40)',
+      //   clearAlpha: 1.0,
+      //   fov: 55,
+      //   position: new THREE.Vector3(0, 0, -2)
+      // })
+      var app=scene
+      //var maxAni = app.renderer.getMaxAnisotropy()
 
       // setup our texture with some nice mipmapping etc
       texture.needsUpdate = true
       texture.minFilter = THREE.LinearMipMapLinearFilter
       texture.magFilter = THREE.LinearFilter
       texture.generateMipmaps = true
-      texture.anisotropy = maxAni
+      //texture.anisotropy = maxAni
 
       var copy = getCopy()
 
@@ -68,21 +69,19 @@ AFRAME.registerComponent('text-3d', {
         textCopy.rotation.y = (i * Math.PI * 2) / numRotateCopies // set rotation
         textAnchor.add(textCopy)
       }
-
       function update(delta) {
-        textAnchor.position.y += delta * 3; // Multiply by delta to keep the movement consistent
+        textAnchor.position.y += delta*3; // Multiply by delta to keep the movement consistent
         textAnchor.position.y %= 20;
       }
 
       let lastUpdate = performance.now();
-
       function animate() {
         // Schedule the next frame
         requestAnimationFrame(animate);
 
         // Calculate elapsed time since the last update
         const now = performance.now();
-        const delta = (now - lastUpdate) / 1000;
+        const delta = (now - lastUpdate)/1000;
         lastUpdate = now;
 
         // Update the scene with the calculated delta
@@ -92,8 +91,9 @@ AFRAME.registerComponent('text-3d', {
       // Start the animation loop
       animate();
     }
+
     // getCopy function from 'test-3d.js'
-    function getCopy() {
+    function getCopy () {
       return [
         'Total characters: 3,326',
         'Click + drag to rotate',
@@ -107,15 +107,16 @@ AFRAME.registerComponent('text-3d', {
         'Morbi viverra ipsum purus, eu fermentum urna tincidunt at. Maecenas feugiat, est quis feugiat interdum, est ante egestas sem, sed porttitor arcu dui quis nulla. Praesent sed auctor enim. Sed vel dolor et nunc bibendum placerat. Nunc venenatis luctus tortor, ut gravida nunc auctor semper. Suspendisse non orci ut justo iaculis pretium lobortis nec nunc. Donec non libero tellus. Mauris felis mauris, consequat sed tempus ut, tincidunt sit amet nibh. Nam pellentesque lacinia massa, quis rhoncus erat fringilla facilisis. Pellentesque nunc est, lobortis non libero vel, dapibus suscipit dui.'
       ].join('\n')
     }
+
     // Load the font and texture, then start
     load({
       font: './fnt/Roboto-msdf.json',
       image: './fnt/Roboto-msdf.png'
-    }, start);
+    }, (font, texture) => start(font, texture, this.el.sceneEl.object3D));
   }
 });
 
-module.exports = function() {
+module.exports = function () {
   // Create a basic A-Frame scene
   const scene = document.createElement('a-scene');
 
