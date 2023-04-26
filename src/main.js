@@ -1,28 +1,22 @@
-// Import A-Frame and aframe-troika-text
-//const Three = require('three');
-const AFrame = require('aframe');
-const AFrameTroikaText = require('aframe-troika-text');
+// Import A-Frame and troika-three-text
+const AFRAME = require('aframe');
+const { Text } = require('troika-three-text');
 
 // Create a basic A-Frame scene
 const scene = document.createElement('a-scene');
 
-// Create Troika text entity
-const text1 = document.createElement('a-entity');
-text1.setAttribute('troika-text', {
-  value: 'Hello, World!\nHello, World!\nHello, World!\nHello, World!\nHello, World!\nHello, World!\n',
-  fontSize: 0.2,
-  color: '#FF0000'
-});
-text1.setAttribute('position', '0 1 -2');
-// Create Troika text entity
-const text2 = document.createElement('a-entity');
-text2.setAttribute('troika-text', {
-  value: 'Space Goodbye!\nSpace Goodbye!\nSpace Goodbye!\nSpace Goodbye!\nSpace Goodbye!\nSpace Goodbye!\n',
-  fontSize: 0.2,
-  color: '#FF0000'
-});
-text2.setAttribute('position', '0 1 -2');
-text2.setAttribute('rotation', '0 10 -20');
+// Configure the text properties for both texts
+const textProps = [
+  {
+    value: 'Hello, World!\nHello, World!\nHello, World!\nHello, World!\nHello, World!\nHello, World!\n',
+    position: '0 1 -2'
+  },
+  {
+    value: 'Space Goodbye!\nSpace Goodbye!\nSpace Goodbye!\nSpace Goodbye!\nSpace Goodbye!\nSpace Goodbye!\n',
+    position: '0 1 -2',
+    rotation: '0 10 -20'
+  }
+];
 
 // Function to combine geometries
 function combineGeometries(geo1, geo2) {
@@ -35,38 +29,45 @@ function combineGeometries(geo1, geo2) {
   return geometry1;
 }
 
-// Wait for both texts to be rendered
+// Create Troika Text instances for both texts
+const texts = textProps.map((props) => {
+  const text = new Text();
+  text.text = props.value;
+  text.fontSize = 0.2;
+  text.color = 0xff0000;
+  return text;
+});
+
+// Function to handle the completion of rendering for both texts
+function onTextsRendered(geometries) {
+  // Combine the geometries
+  const combinedGeometry = combineGeometries(geometries[0], geometries[1]);
+
+  // Create a new mesh with the combined geometry
+  const material = new THREE.MeshBasicMaterial({ color: 0xff0000 });
+  const combinedMesh = new THREE.Mesh(combinedGeometry, material);
+
+  // Create an A-Frame entity to hold the combined mesh
+  const combinedEntity = document.createElement('a-entity');
+  combinedEntity.setObject3D('mesh', combinedMesh);
+  combinedEntity.setAttribute('position', '0 1 -2');
+  scene.appendChild(combinedEntity);
+}
+
+// Render the texts and wait for their completion
 let textsRendered = 0;
-[text1, text2].forEach((text) => {
-  text.addEventListener('troika-text-rendered', () => {
+const textGeometries = [];
+
+texts.forEach((text, index) => {
+  text.sync(() => {
+    textGeometries[index] = text.geometry;
     textsRendered++;
-    if (textsRendered === 2) {
-      // Retrieve the geometries from both text entities
-      const geo1 = text1.getObject3D('mesh').geometry;
-      const geo2 = text2.getObject3D('mesh').geometry;
 
-      // Combine the geometries
-      const combinedGeometry = combineGeometries(geo1, geo2);
-
-      // Create a new mesh with the combined geometry
-      const combinedMesh = new THREE.Mesh(combinedGeometry, text1.getObject3D('mesh').material);
-
-      // Create an A-Frame entity to hold the combined mesh
-      const combinedEntity = document.createElement('a-entity');
-      combinedEntity.setObject3D('mesh', combinedMesh);
-      combinedEntity.setAttribute('position', '0 1 -2');
-      scene.appendChild(combinedEntity);
-
-      // Remove the original text entities
-      text1.parentNode.removeChild(text1);
-      text2.parentNode.removeChild(text2);
+    if (textsRendered === texts.length) {
+      onTextsRendered(textGeometries);
     }
   });
 });
-
-// Add the text entities to the scene
-scene.appendChild(text1);
-scene.appendChild(text2);
 
 // Add the scene to the DOM
 document.body.appendChild(scene);
