@@ -1,0 +1,58 @@
+{
+  "name": "slab",
+  "version": "1.0.3",
+  "description": "3D text",
+  "main": "index.js",
+  "scripts": {
+    "test-3d": "/workspaces/Slab/node_modules/.bin/budo test/test-3d.js:bundle.js --dir test --live",
+    "app": "/workspaces/Slab/node_modules/.bin/budo app.js:bundle.js --dir test --live",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "budo src/main.js:bundle.js --dir public --live -- -t [ babelify --presets [ @babel/preset-env ] ]",
+    "build": "browserify src/main.js -t [ babelify --presets [ @babel/preset-env ] ] -o public/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emnolope/Slab.git"
+  },
+  "keywords": [
+    "3d",
+    "text",
+    "vr",
+    "words"
+  ],
+  "author": "emnolope",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Emnolope/Slab/issues"
+  },
+  "homepage": "https://github.com/Emnolope/Slab#readme",
+  "dependencies": {
+    "aframe": "^1.4.1",
+    "aframe-locomotion": "^0.2.0",
+    "aframe-troika-text": "^0.10.1",
+    "array-shuffle": "^1.0.1",
+    "express": "^4.18.2",
+    "inherits": "^2.0.1",
+    "layout-bmfont-text": "^1.2.0",
+    "nice-color-palettes": "^3.0.0",
+    "object-assign": "^4.0.1",
+    "quad-indices": "^2.0.1",
+    "three-bmfont-text": "^3.0.1",
+    "three-buffer-vertex-data": "^1.0.0"
+  },
+  "devDependencies": {
+    "bluebird": "^3.7.2",
+    "browserify": "^16.5.1",
+    "budo": "^11.8.4",
+    "glsl-aastep": "^1.0.1",
+    "glsl-noise": "0.0.0",
+    "glslify": "^7.0.0",
+    "load-bmfont": "^1.0.0",
+    "standard": "^14.3.4",
+    "sun-tzu-quotes": "^1.0.0",
+    "three": "^0.118.3",
+    "three-orbit-viewer": "^69.2.9",
+    "three-vignette-background": "^1.0.2",
+    "uglify-js": "^3.10.0"
+  }
+}
