@@ -1,6 +1,7 @@
 // Import A-Frame and aframe-troika-text
-require('aframe');
-require('aframe-troika-text');
+//const Three = require('three');
+const AFrame = require('aframe');
+const AFrameTroikaText = require('aframe-troika-text');
 
 // Create a basic A-Frame scene
 const scene = document.createElement('a-scene');

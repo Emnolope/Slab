@@ -4,31 +4,34 @@
     "description": "3D text",
     "main": "index.js",
     "scripts": {
-      "test-3d": "/workspaces/Slab/node_modules/.bin/budo test/test-3d.js:bundle.js --dir test --live",
-      "app": "/workspaces/Slab/node_modules/.bin/budo app.js:bundle.js --dir test --live",
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "budo src/main.js:bundle.js --dir public --live -- -t [ babelify --presets [ @babel/preset-env ] ]",
-      "build": "browserify src/main.js -t [ babelify --presets [ @babel/preset-env ] ] -o public/bundle.js"
+        "test-3d": "/workspaces/Slab/node_modules/.bin/budo test/test-3d.js:bundle.js --dir test --live",
+        "app": "/workspaces/Slab/node_modules/.bin/budo app.js:bundle.js --dir test --live",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "budo src/main.js:bundle.js --dir public --live -- -t [ babelify --presets [ @babel/preset-env ] ]",
+        "build": "browserify src/main.js -t [ babelify --presets [ @babel/preset-env ] ] -o public/bundle.js"
     },
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/Emnolope/Slab.git"
+        "type": "git",
+        "url": "git+https://github.com/Emnolope/Slab.git"
     },
     "keywords": [
-      "3d",
-      "text",
-      "vr",
-      "words"
+        "3d",
+        "text",
+        "vr",
+        "words"
     ],
     "author": "emnolope",
     "license": "ISC",
     "bugs": {
-      "url": "https://github.com/Emnolope/Slab/issues"
+        "url": "https://github.com/Emnolope/Slab/issues"
     },
     "homepage": "https://github.com/Emnolope/Slab#readme",
     "dependencies": {
-    },
-    "devDependencies": {
+        "aframe": "^1.4.2",
+        "aframe-troika-text": "^0.10.1",
+        "budo": "^11.8.4",
+        "react": "^16.14.0",
+        "three": "^0.151.3",
+        "troika-3d-text": "^0.47.1"
     }
-  }
-  
+}
