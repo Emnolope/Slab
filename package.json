@@ -4,8 +4,8 @@
   "description": "3D text",
   "main": "index.js",
   "scripts": {
-    "test-3d":"/workspaces/Slab/node_modules/.bin/budo test/test-3d.js:bundle.js --dir test --live",
-    "app":"/workspaces/Slab/node_modules/.bin/budo app.js:bundle.js --dir test --live",
+    "test-3d": "/workspaces/Slab/node_modules/.bin/budo test/test-3d.js:bundle.js --dir test --live",
+    "app": "/workspaces/Slab/node_modules/.bin/budo app.js:bundle.js --dir test --live",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "budo src/main.js:bundle.js --dir public --live -- -t [ babelify --presets [ @babel/preset-env ] ]",
     "build": "browserify src/main.js -t [ babelify --presets [ @babel/preset-env ] ] -o public/bundle.js"
@@ -29,6 +29,7 @@
   "dependencies": {
     "aframe": "^1.4.1",
     "aframe-locomotion": "^0.2.0",
+    "aframe-troika-text": "^0.10.1",
     "array-shuffle": "^1.0.1",
     "express": "^4.18.2",
     "inherits": "^2.0.1",
@@ -42,7 +43,7 @@
   "devDependencies": {
     "bluebird": "^3.7.2",
     "browserify": "^16.5.1",
-    "budo": "^11.6.3",
+    "budo": "^11.8.4",
     "glsl-aastep": "^1.0.1",
     "glsl-noise": "0.0.0",
     "glslify": "^7.0.0",
