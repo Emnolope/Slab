@@ -4,12 +4,10 @@
     "description": "3D text",
     "main": "index.js",
     "scripts": {
+        "start": "webpack serve",
         "test-3d": "/workspaces/Slab/node_modules/.bin/budo test/test-3d.js:bundle.js --dir test --live",
-        "app": "/workspaces/Slab/node_modules/.bin/budo app.js:bundle.js --dir test --live",
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "budo src/main.js:bundle.js --dir public --live -- -t [ babelify --presets [ @babel/preset-env ] ]",
-        "build": "browserify src/main.js -t [ babelify --presets [ @babel/preset-env ] ] -o public/bundle.js"
-    },
+        "build": "webpack"
+      },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/Emnolope/Slab.git"
@@ -33,5 +31,16 @@
         "react": "^16.14.0",
         "three": "^0.151.3",
         "troika-3d-text": "^0.47.1"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.21.4",
+        "@babel/preset-env": "^7.21.4",
+        "babel-loader": "^9.1.2",
+        "babelify": "^10.0.0",
+        "browserify": "^17.0.0",
+        "esmify": "^2.1.1",
+        "webpack": "^5.81.0",
+        "webpack-cli": "^5.0.2",
+        "webpack-dev-server": "^4.13.3"
     }
 }
