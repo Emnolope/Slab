@@ -1,5 +1,5 @@
-const THREE = require('three');
-//const { BufferGeometryUtils } = require('three/examples/jsm/utils/BufferGeometryUtils.js');
+import * as THREE from 'three';
+import * as BufferGeometryUtils from './BufferGeometryUtils.js';
 
 // Create a WebGLRenderer
 const renderer = new THREE.WebGLRenderer();
@@ -23,12 +23,12 @@ sphereGeometry.translate(-2, 0, 0);
 boxGeometry.translate(0, 0, 0);
 torusGeometry.translate(2, 0, 0);
 
-/*// Merge the geometries
+// Merge the geometries
 const mergedGeometry = BufferGeometryUtils.mergeBufferGeometries([
   sphereGeometry,
   boxGeometry,
   torusGeometry
-]);*/
+]);
 
 // Create a material
 const material = new THREE.MeshBasicMaterial({ color: 0x00ff00, wireframe: true });
@@ -36,23 +36,23 @@ const material = new THREE.MeshBasicMaterial({ color: 0x00ff00, wireframe: true 
 const sphereMesh = new THREE.Mesh(sphereGeometry, material);
 const boxMesh = new THREE.Mesh(boxGeometry, material);
 const torusMesh = new THREE.Mesh(torusGeometry, material);
-scene.add(sphereMesh);
-scene.add(boxMesh);
-scene.add(torusMesh);
+//scene.add(sphereMesh);
+//scene.add(boxMesh);
+//scene.add(torusMesh);
 
-/*// Create a mesh with the merged geometry and material
+// Create a mesh with the merged geometry and material
 const mergedMesh = new THREE.Mesh(mergedGeometry, material);
 
 // Add the mesh to the scene
-scene.add(mergedMesh);*/
+scene.add(mergedMesh);
 
 // Create the animation loop
 const animate = function () {
   requestAnimationFrame(animate);
 
   // Rotate the mesh
-  boxMesh.rotation.x += 0.01;
-  boxMesh.rotation.y += 0.01;
+  mergedMesh.rotation.x += 0.01;
+  mergedMesh.rotation.y += 0.01;
 
   // Render the scene
   renderer.render(scene, camera);
