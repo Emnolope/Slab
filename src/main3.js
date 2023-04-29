@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-import * as BufferGeometryUtils from './BufferGeometryUtils.js';
+import * as BufferGeometryUtils from 'threeBufferGeometryUtils.js';
 
 // Create a WebGLRenderer
 const renderer = new THREE.WebGLRenderer();
