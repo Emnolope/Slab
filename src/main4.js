@@ -19,16 +19,9 @@ const text2 = document.createElement('a-entity');
 const textMesh2 = new Text();
 const object3D2 = new THREE.Object3D();
 
-textMesh2.text = 'Hello, World!\nHello, World!\nHello, World!\nHello, World!\nHello, World!\nHello, World!\n';
+textMesh2.text = 'Space Goodbye!\nSpace Goodbye!\nSpace Goodbye!\nSpace Goodbye!\nSpace Goodbye!\nSpace Goodbye!\n';
 textMesh2.fontSize = 0.2;
 textMesh2.color = new THREE.Color('#FF0000');
-
-// NATO codes
-const natoCodes = ['Alfa', 'Bravo', 'Charlie', 'Delta', 'Echo', 'Foxtrot', 'Golf', 'Hotel', 'India', 'Juliett', 'Kilo', 'Lima', 'Mike', 'November', 'Oscar', 'Papa', 'Quebec', 'Romeo', 'Sierra', 'Tango', 'Uniform', 'Victor', 'Whiskey', 'X-ray', 'Yankee', 'Zulu'];
-
-// Assign unique NATO code to each A-Frame entity
-text1.setAttribute('nato-code', natoCodes[0]);
-text2.setAttribute('nato-code', natoCodes[1]);
 
 // Wrap the sync operation in a Promise
 const syncTextMesh1 = new Promise((resolve) => {
@@ -58,7 +51,6 @@ Promise.all([syncTextMesh1, syncTextMesh2]).then(() => {
   const mergedMesh = new THREE.Mesh(mergedGeometry, mergedMaterial);
 
   const mergedEntity = document.createElement('a-entity');
-  mergedEntity.id = natoCodes[3];
   mergedEntity.setObject3D('mesh', mergedMesh);
   mergedEntity.setAttribute('position', '0 1 -2');
 
@@ -70,12 +62,4 @@ Promise.all([syncTextMesh1, syncTextMesh2]).then(() => {
 
   // Add the scene to the DOM
   document.body.appendChild(scene);
-  const material1 = textMesh1.material;
-  const material2 = textMesh2.material;
-
-  if (material1 === material2) {
-    console.log('textMesh1 and textMesh2 share the same material instance.');
-  } else {
-    console.log('textMesh1 and textMesh2 have different material instances.');
-  }
 });
