@@ -1,32 +1,43 @@
-// Import A-Frame and aframe-troika-text
-require('aframe');
-require('aframe-troika-text');
+// src/main.js
 
-// Create a basic A-Frame scene
-const scene = document.createElement('a-scene');
+module.exports = function () {
+  // Create a basic A-Frame scene
+  const scene = document.createElement('a-scene');
 
-// Create Troika text entity
-const text1 = document.createElement('a-entity');
-text1.setAttribute('troika-text', {
-  value: 'Hello, World!\nHello, World!\nHello, World!\nHello, World!\nHello, World!\nHello, World!\n',
-  fontSize: 0.2,
-  color: '#FF0000'
-});
-text1.setAttribute('position', '0 1 -2');
+  // Create entities (objects) in the scene
+  const box = document.createElement('a-box');
+  box.setAttribute('position', '-1 0.5 -3');
+  box.setAttribute('rotation', '0 45 0');
+  box.setAttribute('color', '#4CC3D9');
 
-// Create Troika text entity
-const text2 = document.createElement('a-entity');
-text2.setAttribute('troika-text', {
-  value: 'Space Goodbye!\nSpace Goodbye!\nSpace Goodbye!\nSpace Goodbye!\nSpace Goodbye!\nSpace Goodbye!\n',
-  fontSize: 0.2,
-  color: '#FF0000'
-});
-text2.setAttribute('position', '0 1 -2');
-text2.setAttribute('rotation', '0 10 -20');
+  const sphere = document.createElement('a-sphere');
+  sphere.setAttribute('position', '0 1.25 -5');
+  sphere.setAttribute('radius', '1.25');
+  sphere.setAttribute('color', '#EF2D5E');
 
-// Add the text entity to the scene
-scene.appendChild(text1);
-scene.appendChild(text2);
+  const cylinder = document.createElement('a-cylinder');
+  cylinder.setAttribute('position', '1 0.75 -3');
+  cylinder.setAttribute('radius', '0.5');
+  cylinder.setAttribute('height', '1.5');
+  cylinder.setAttribute('color', '#FFC65D');
 
-// Add the scene to the DOM
-document.body.appendChild(scene);
+  const plane = document.createElement('a-plane');
+  plane.setAttribute('position', '0 0 -4');
+  plane.setAttribute('rotation', '-90 0 0');
+  plane.setAttribute('width', '4');
+  plane.setAttribute('height', '4');
+  plane.setAttribute('color', '#7BC8A4');
+
+  const sky = document.createElement('a-sky');
+  sky.setAttribute('color', '#ECECEC');
+
+  // Add the entities to the scene
+  scene.appendChild(box);
+  scene.appendChild(sphere);
+  scene.appendChild(cylinder);
+  scene.appendChild(plane);
+  scene.appendChild(sky);
+
+  // Add the scene to the DOM
+  document.body.appendChild(scene);
+};
