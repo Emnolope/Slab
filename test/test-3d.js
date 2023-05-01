@@ -12,7 +12,7 @@ global.THREE = require('three')
 var createOrbitViewer = require('three-orbit-viewer')(THREE)
 var createText = require('three-bmfont-text')
 var loadFont = require('load-bmfont')
-var MSDFShader = require('./msdf')
+var MSDFShader = require('./uhh/msdf')
 
 function load(opt, cb) {
   loadFont(opt.font, function (err, font) {
