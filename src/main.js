@@ -1,7 +1,9 @@
 const AFRAME = require('aframe');
 const { Text } = require('troika-three-text');
 import * as BufferGeometryUtils from 'three/examples/jsm/utils/BufferGeometryUtils';
+import { proverbs } from './uhh/proverbs';
 
+console.log(proverbs);
 // Create a basic A-Frame scene
 const scene = document.createElement('a-scene');
 
@@ -10,7 +12,7 @@ const text1 = document.createElement('a-entity');
 const textMesh1 = new Text();
 const object3D1 = new THREE.Object3D();
 
-textMesh1.text = 'Hello, World!\nHello, World!\nHello, World!\nHello, World!\nHello, World!\nHello, World!\n';
+textMesh1.text = proverbs;
 textMesh1.fontSize = 0.2;
 textMesh1.color = new THREE.Color('#FF0000');
 
