@@ -61,7 +61,7 @@ preloadFont(
     const textMesh1 = new Text();
     const object3D1 = new THREE.Object3D();
 
-    textMesh1.text = genesis + exodus;
+    textMesh1.text = proverbs;
     textMesh1.font = 'https://fonts.cdnfonts.com/s/16061/RobotoMono-Regular.woff'; // Set the loaded font to the Troika text
     textMesh1.fontSize = 0.2;
     textMesh1.color = new THREE.Color('#FF0000');
