@@ -1,10 +1,7 @@
-/* BUILD A FUCKING BIBLE APP YOU HEATHEN*/
-
 import AFRAME from 'aframe';
 import 'aframe-locomotion';
 import { Text, preloadFont } from 'troika-three-text';
 import { genesis, exodus, proverbs } from './uhh/bible';
-import CryptoJS from 'crypto-js';
 
 console.log(proverbs);
 
@@ -53,25 +50,6 @@ async function preloadFontAsync(options) {
   });
 }
 
-async function gettext(note, password) {
-  const url = `https://api.allorigins.win/raw?url=`+`https://www.protectedtext.com/${note}?action=getJSON`;
-  const response = await fetch(url, {
-    method: 'GET',
-    headers: { 'Content-Type': 'application/json' },
-  });
-
-  if (response.ok) {
-    const data = await response.json();
-    const e_orig_content = data["eContent"];
-    const text = CryptoJS.AES.decrypt(e_orig_content, password).toString(CryptoJS.enc.Utf8);
-    console.log(text);
-    return text;
-  } else {
-    console.error(`Error fetching data: ${response.status} - ${response.statusText}`);
-    return 'ERROR';
-  }
-}
-
 async function createTextAsync(textMesh) {
   return new Promise((resolve) => {
     textMesh.sync(() => {
@@ -80,21 +58,15 @@ async function createTextAsync(textMesh) {
   });
 }
 
-// async function for initializing the scene
 async function initScene() {
   await preloadFontAsync({
-    //font: 'https://fonts.cdnfonts.com/s/16061/RobotoMono-Regular.woff',
-    font: 'https://raw.githubusercontent.com/IBM/plex/master/IBM-Plex-Mono/fonts/complete/woff/IBMPlexMono-Regular.woff',
+    font: 'https://fonts.cdnfonts.com/s/16061/RobotoMono-Regular.woff',
     characters: 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz 0123456789!@#$%^&*()~`_-+={[}]|:;"\'<,>.?/',
     sdfGlyphSize: 8,
   });
 
-  // Fetch the text from the internet
-  const text = await gettext('emnoloperegret2', ' ');
-
   // Create a basic A-Frame scene
   const scene = document.createElement('a-scene');
-  scene.setAttribute('background', 'color: black');
 
   // Create the rig-controls entity
   const rigControls = document.createElement('a-entity');
@@ -142,9 +114,9 @@ async function initScene() {
     return sections;
   };
   
-  // Split the fetched text into sections
+  // Split the text into sections
   const maxSectionLength = 5000; // or 19000
-  const sections = splitText(text, maxSectionLength);
+  const sections = splitText(proverbs, maxSectionLength);
   const boxWidth = 26;
 
   for (const [index, section] of sections.entries()) {
@@ -154,12 +126,10 @@ async function initScene() {
     const object3D = new THREE.Object3D();
 
     textMesh.text = section;
-    //textMesh.font = 'https://fonts.cdnfonts.com/s/16061/RobotoMono-Regular.woff';
-    textMesh.font = 'https://raw.githubusercontent.com/IBM/plex/master/IBM-Plex-Mono/fonts/complete/woff/IBMPlexMono-Regular.woff';
+    textMesh.font = 'https://fonts.cdnfonts.com/s/16061/RobotoMono-Regular.woff';
     textMesh.fontSize = 0.2;
-    textMesh.color = new THREE.Color('#FFFFFF');
+    textMesh.color = new THREE.Color('#FF0000');
     textMesh.maxWidth = 16;
-    textMesh.overflowWrap='break-word';
 
     await createTextAsync(textMesh);
 
@@ -167,8 +137,8 @@ async function initScene() {
     textEntity.setObject3D('mesh', object3D);
     scene.appendChild(textEntity);
   }
-  
+
   document.body.appendChild(scene);
 }
 
-initScene(); // Call the async initScene function
+initScene();

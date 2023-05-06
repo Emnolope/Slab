@@ -83,18 +83,17 @@ async function createTextAsync(textMesh) {
 // async function for initializing the scene
 async function initScene() {
   await preloadFontAsync({
-    //font: 'https://fonts.cdnfonts.com/s/16061/RobotoMono-Regular.woff',
-    font: 'https://raw.githubusercontent.com/IBM/plex/master/IBM-Plex-Mono/fonts/complete/woff/IBMPlexMono-Regular.woff',
+    font: 'https://fonts.cdnfonts.com/s/16061/RobotoMono-Regular.woff',
     characters: 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz 0123456789!@#$%^&*()~`_-+={[}]|:;"\'<,>.?/',
     sdfGlyphSize: 8,
   });
 
   // Fetch the text from the internet
-  const text = await gettext('emnoloperegret2', ' ');
+  const text = await gettext('uhhidk', 'password1234');
 
   // Create a basic A-Frame scene
   const scene = document.createElement('a-scene');
-  scene.setAttribute('background', 'color: black');
+  scene.setAttribute('background','black');
 
   // Create the rig-controls entity
   const rigControls = document.createElement('a-entity');
@@ -154,10 +153,9 @@ async function initScene() {
     const object3D = new THREE.Object3D();
 
     textMesh.text = section;
-    //textMesh.font = 'https://fonts.cdnfonts.com/s/16061/RobotoMono-Regular.woff';
-    textMesh.font = 'https://raw.githubusercontent.com/IBM/plex/master/IBM-Plex-Mono/fonts/complete/woff/IBMPlexMono-Regular.woff';
+    textMesh.font = 'https://fonts.cdnfonts.com/s/16061/RobotoMono-Regular.woff';
     textMesh.fontSize = 0.2;
-    textMesh.color = new THREE.Color('#FFFFFF');
+    textMesh.color = new THREE.Color('#000000');
     textMesh.maxWidth = 16;
     textMesh.overflowWrap='break-word';
 
