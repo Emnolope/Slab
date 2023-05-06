@@ -6,7 +6,7 @@ import { Text, preloadFont } from 'troika-three-text';
 import { genesis, exodus, proverbs } from './uhh/bible';
 import CryptoJS from 'crypto-js';
 
-console.log(proverbs);
+//console.log(proverbs);
 
 AFRAME.registerComponent('rig-controls', {
   init() {
@@ -114,6 +114,32 @@ async function initScene() {
   leftController.setAttribute('oculus-touch-controls','hand: left');
   leftController.setAttribute('smooth-locomotion', 'target: #rig; reference: #camera');
   rigControls.appendChild(leftController);
+  let hyperSpeed = false;
+  const speed = 5;
+  function updateMoveSpeed() {
+    leftController.setAttribute('smooth-locomotion', `target: #rig; reference: #camera; moveSpeed: ${speed * (hyperSpeed ? 5 : 1)}`);
+  } updateMoveSpeed();
+  leftController.addEventListener('gripdown', e => {
+    hyperSpeed = true;
+    updateMoveSpeed();
+  });
+  leftController.addEventListener('gripup', e => {
+    hyperSpeed = false;
+    updateMoveSpeed();
+  });
+  // Add event listeners for Shift key press and release
+  window.addEventListener('keydown', e => {
+    if (e.key === 'Shift') {
+      hyperSpeed = true;
+      updateMoveSpeed();
+    }
+  });
+  window.addEventListener('keyup', e => {
+    if (e.key === 'Shift') {
+      hyperSpeed = false;
+      updateMoveSpeed();
+    }
+  });
 
   const rightController = document.createElement('a-entity');
   rightController.setAttribute('oculus-touch-controls', 'hand: right');

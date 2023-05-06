@@ -1,4 +1,4 @@
-import AFRAME from 'aframe';
+//import AFRAME from 'aframe';
 import 'aframe-locomotion';
 import { Text, preloadFont } from 'troika-three-text';
 import { genesis, exodus, proverbs } from './uhh/bible';

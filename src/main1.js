@@ -1,6 +1,7 @@
 //aframe scene js base
+import AFRAME from 'aframe';
 
-module.exports = function () {
+const main = function () {
   // Create a basic A-Frame scene
   const scene = document.createElement('a-scene');
 
@@ -40,4 +41,4 @@ module.exports = function () {
 
   // Add the scene to the DOM
   document.body.appendChild(scene);
-};
+}; main();

@@ -83,17 +83,18 @@ async function createTextAsync(textMesh) {
 // async function for initializing the scene
 async function initScene() {
   await preloadFontAsync({
-    font: 'https://fonts.cdnfonts.com/s/16061/RobotoMono-Regular.woff',
+    //font: 'https://fonts.cdnfonts.com/s/16061/RobotoMono-Regular.woff',
+    font: 'https://raw.githubusercontent.com/IBM/plex/master/IBM-Plex-Mono/fonts/complete/woff/IBMPlexMono-Regular.woff',
     characters: 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz 0123456789!@#$%^&*()~`_-+={[}]|:;"\'<,>.?/',
     sdfGlyphSize: 8,
   });
 
   // Fetch the text from the internet
-  const text = await gettext('uhhidk', 'password1234');
+  const text = await gettext('emnoloperegret2', ' ');
 
   // Create a basic A-Frame scene
   const scene = document.createElement('a-scene');
-  scene.setAttribute('background','black');
+  scene.setAttribute('background', 'color: black');
 
   // Create the rig-controls entity
   const rigControls = document.createElement('a-entity');
@@ -113,6 +114,32 @@ async function initScene() {
   leftController.setAttribute('oculus-touch-controls','hand: left');
   leftController.setAttribute('smooth-locomotion', 'target: #rig; reference: #camera');
   rigControls.appendChild(leftController);
+  let hyperspeed = false;
+  const speed = 5;
+  function updateMoveSpeed() {
+    leftController.setAttribute('smooth-locomotion', `target: #rig; reference: #camera; moveSpeed: ${speed * (hyperSpeed ? 5 : 1)}`);
+  } updateMoveSpeed();
+  leftController.addEventListener('gripdown', e => {
+    hyperSpeed = true;
+    updateMoveSpeed();
+  });
+  leftController.addEventListener('gripup', e => {
+    hyperSpeed = false;
+    updateMoveSpeed();
+  });
+  // Add event listeners for Shift key press and release
+  window.addEventListener('keydown', e => {
+    if (e.key === 'Shift') {
+      hyperSpeedMode = true;
+      updateMoveSpeed();
+    }
+  });
+  window.addEventListener('keyup', e => {
+    if (e.key === 'Shift') {
+      hyperSpeedMode = false;
+      updateMoveSpeed();
+    }
+  });
 
   const rightController = document.createElement('a-entity');
   rightController.setAttribute('oculus-touch-controls', 'hand: right');
@@ -153,9 +180,10 @@ async function initScene() {
     const object3D = new THREE.Object3D();
 
     textMesh.text = section;
-    textMesh.font = 'https://fonts.cdnfonts.com/s/16061/RobotoMono-Regular.woff';
+    //textMesh.font = 'https://fonts.cdnfonts.com/s/16061/RobotoMono-Regular.woff';
+    textMesh.font = 'https://raw.githubusercontent.com/IBM/plex/master/IBM-Plex-Mono/fonts/complete/woff/IBMPlexMono-Regular.woff';
     textMesh.fontSize = 0.2;
-    textMesh.color = new THREE.Color('#000000');
+    textMesh.color = new THREE.Color('#FFFFFF');
     textMesh.maxWidth = 16;
     textMesh.overflowWrap='break-word';
 
