@@ -1,4 +1,4 @@
-// src/main.js
+//aframe scene js base
 
 module.exports = function () {
   // Create a basic A-Frame scene

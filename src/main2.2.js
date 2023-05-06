@@ -1,3 +1,4 @@
+// aframe with troika tet
 const AFRAME = require('aframe');
 const { Text } = require('troika-three-text');
 

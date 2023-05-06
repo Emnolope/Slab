@@ -1,3 +1,5 @@
+// merge buffer geometery demo
+
 import * as THREE from 'three';
 import * as BufferGeometryUtils from 'threeBufferGeometryUtils.js';
 
