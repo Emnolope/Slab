@@ -90,7 +90,7 @@ async function initScene() {
   });
 
   // Fetch the text from the internet
-  const text = await gettext('emnoloperegret2', ' ');
+  const text = await gettext('emnoloperegret', ' ');
 
   // Create a basic A-Frame scene
   const scene = document.createElement('a-scene');
