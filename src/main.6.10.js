@@ -114,7 +114,7 @@ async function initScene() {
   leftController.setAttribute('oculus-touch-controls','hand: left');
   leftController.setAttribute('smooth-locomotion', 'target: #rig; reference: #camera');
   rigControls.appendChild(leftController);
-  let hyperspeed = false;
+  let hyperSpeed = false;
   const speed = 5;
   function updateMoveSpeed() {
     leftController.setAttribute('smooth-locomotion', `target: #rig; reference: #camera; moveSpeed: ${speed * (hyperSpeed ? 5 : 1)}`);

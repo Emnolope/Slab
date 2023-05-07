@@ -7,7 +7,7 @@
         "start": "webpack serve --config webpack.dev.js",
         "test-3d": "/workspaces/Slab/node_modules/.bin/budo test/test-3d.js:bundle.js --dir test --live",
         "build": "webpack --config webpack.prod.js"
-      },
+    },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/Emnolope/Slab.git"
@@ -30,6 +30,7 @@
         "aframe-troika-text": "^0.10.1",
         "budo": "^11.8.4",
         "crypto-js": "^4.1.1",
+        "eruda": "^3.0.0",
         "https": "^1.0.0",
         "react": "^16.14.0",
         "three": "^0.151.3",

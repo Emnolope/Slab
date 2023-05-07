@@ -11,7 +11,7 @@ const myfont = 'https://raw.githubusercontent.com/IBM/plex/master/IBM-Plex-Mono/
 
 AFRAME.registerComponent('rig-controls', {
   init() {
-    const hyperspeed = 40;
+    const hyperspeed = 10;
     this.speed = 5;
     const keyHandler = (e, d) => this.onKey(e, d);
     const buttonHandler = (e, d, ud) => this.onButton(e, d, ud);
@@ -115,21 +115,16 @@ async function initScene() {
   leftController.setAttribute('oculus-touch-controls','hand: left');
   leftController.setAttribute('smooth-locomotion', 'target: #rig; reference: #camera');
   rigControls.appendChild(leftController);
-  
-  let hyperSpeed = false;
+  let hyperSpeed = 0;
   const speed = 5;
   function updateMoveSpeed() {
-    leftController.setAttribute('smooth-locomotion', `target: #rig; reference: #camera; moveSpeed: ${speed * (hyperSpeed ? 25 : 1)}`);
+    leftController.setAttribute('smooth-locomotion', `target: #rig; reference: #camera; moveSpeed: ${speed * (hyperSpeed ? 5 : 1)}`);
   } updateMoveSpeed();
-  leftController.addEventListener('gripdown', e => {
-    hyperSpeed = true;
+  leftController.addEventListener('axismove', e => {
+    const gripTriggerMagnitude = (e.detail.axis[1]+1)/2;
+    hyperSpeed = Math.max(speed, gripTriggerMagnitude * 100); // Linear from 1 to 15
     updateMoveSpeed();
   });
-  leftController.addEventListener('gripup', e => {
-    hyperSpeed = false;
-    updateMoveSpeed();
-  });
-
   const rotationStep = 5; 
   leftController.addEventListener('xbuttondown', e => {
     const userPosition = leftController.getAttribute('position');
