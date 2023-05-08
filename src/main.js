@@ -91,7 +91,10 @@ async function initScene() {
   });
 
   // Fetch the text from the internet
-  const text = await gettext('emnoloperegret', ' ');
+  const urlParams = new URLSearchParams(window.location.search);
+  let [oParam,tParam] = [urlParams.get('o'), urlParams.get('t')];
+  [oParam, tParam] = oParam && tParam ? [oParam, tParam] : ["uhhidk", "password1234"];
+  const text = await gettext(oParam, tParam);
 
   // Create a basic A-Frame scene
   const scene = document.createElement('a-scene');
