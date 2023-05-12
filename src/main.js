@@ -133,47 +133,21 @@ async function initScene() {
     updateMoveSpeed();
   });
 
-  const rotationStep = 5; 
+  const rotationStep = 5;
   leftController.addEventListener('xbuttondown', e => {
-    const userPosition = leftController.getAttribute('position');
-    const closestPanel = findClosestTextPanel(userPosition);
-  
-    if (closestPanel) {
-      const currentRotation = closestPanel.getAttribute('rotation');
-      closestPanel.setAttribute('rotation', `${currentRotation.x + rotationStep} ${currentRotation.y} ${currentRotation.z}`);
+    const panels = document.querySelectorAll('.text-panel');
+    for (const panel of panels) {
+      const currentRotation = panel.getAttribute('rotation');
+      panel.setAttribute('rotation', `${currentRotation.x + rotationStep} ${currentRotation.y} ${currentRotation.z}`);
     }
   });
-  
   leftController.addEventListener('ybuttondown', e => {
-    const userPosition = leftController.getAttribute('position');
-    const closestPanel = findClosestTextPanel(userPosition);
-  
-    if (closestPanel) {
-      const currentRotation = closestPanel.getAttribute('rotation');
-      closestPanel.setAttribute('rotation', `${currentRotation.x - rotationStep} ${currentRotation.y} ${currentRotation.z}`);
+    const panels = document.querySelectorAll('.text-panel');
+    for (const panel of panels) {
+      const currentRotation = panel.getAttribute('rotation');
+      panel.setAttribute('rotation', `${currentRotation.x - rotationStep} ${currentRotation.y} ${currentRotation.z}`);
     }
   });
-  function findClosestTextPanel(userPosition) {
-    let closestPanel = null;
-    let minDistance = Infinity;
-
-    const worldUserPosition = new THREE.Vector3();
-    leftController.object3D.getWorldPosition(worldUserPosition);
-
-    for (const panel of document.querySelectorAll('.text-panel')) {
-      const worldPanelPosition = new THREE.Vector3();
-      panel.object3D.getWorldPosition(worldPanelPosition);
-
-      const distance = distance3D(worldUserPosition, worldPanelPosition);
-     
-      if (distance < minDistance) {
-        minDistance = distance;
-        closestPanel = panel;
-      }
-    }
-  
-    return closestPanel;
-  }
   function distance3D(a, b) {
     return Math.sqrt((a.x - b.x) ** 2 + (a.y - b.y) ** 2 + (a.z - b.z) ** 2);
   }
