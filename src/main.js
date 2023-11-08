@@ -132,21 +132,33 @@ async function initScene() {
     hyperSpeed = false;
     updateMoveSpeed();
   });
-
   const rotationStep = 5;
-  leftController.addEventListener('xbuttondown', e => {
+  const movementStep = 1
+  function rotatePanels (turn) {
     const panels = document.querySelectorAll('.text-panel');
     for (const panel of panels) {
       const currentRotation = panel.getAttribute('rotation');
-      panel.setAttribute('rotation', `${currentRotation.x + rotationStep} ${currentRotation.y} ${currentRotation.z}`);
+      panel.setAttribute('rotation', `${currentRotation.x + turn} ${currentRotation.y} ${currentRotation.z}`);
     }
+  }
+  function movePanels (move) {
+    const panels = document.querySelectorAll('.text-panel');
+    for (const panel of panels) {
+      const currentRotation = panel.getAttribute('position');
+      panel.setAttribute('position', `${currentRotation.x} ${currentRotation.y+move} ${currentRotation.z}`);
+    }
+  } 
+  leftController.addEventListener('xbuttondown', e => {
+    if (hyperSpeed)
+      rotatePanels(rotationStep);
+    else
+      movePanels(movementStep);
   });
   leftController.addEventListener('ybuttondown', e => {
-    const panels = document.querySelectorAll('.text-panel');
-    for (const panel of panels) {
-      const currentRotation = panel.getAttribute('rotation');
-      panel.setAttribute('rotation', `${currentRotation.x - rotationStep} ${currentRotation.y} ${currentRotation.z}`);
-    }
+    if (hyperSpeed)
+      rotatePanels(-rotationStep);
+    else
+      movePanels(-movementStep);
   });
   function distance3D(a, b) {
     return Math.sqrt((a.x - b.x) ** 2 + (a.y - b.y) ** 2 + (a.z - b.z) ** 2);
